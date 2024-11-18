@@ -8,7 +8,7 @@ var searchData=
   ['pdoinit_5',['PDOInit',['../group__pdo.html#ga474688163fc6e1ffe47d56143a051714',1,'PDOInit(CO_Data *d):&#160;pdo.c'],['../group__pdo.html#ga474688163fc6e1ffe47d56143a051714',1,'PDOInit(CO_Data *d):&#160;pdo.c']]],
   ['pdostop_6',['PDOStop',['../group__pdo.html#ga745aea83aebbc1ec052a98f18586cb35',1,'PDOStop(CO_Data *d):&#160;pdo.c'],['../group__pdo.html#ga745aea83aebbc1ec052a98f18586cb35',1,'PDOStop(CO_Data *d):&#160;pdo.c']]],
   ['pendsv_5fhandler_7',['PendSV_Handler',['../stm32l4xx__it_8h.html#a6303e1f258cbdc1f970ce579cc015623',1,'PendSV_Handler(void):&#160;stm32l4xx_it.c'],['../stm32l4xx__it_8c.html#a6303e1f258cbdc1f970ce579cc015623',1,'PendSV_Handler(void):&#160;stm32l4xx_it.c']]],
-  ['peripherals_8',['Restricted Peripherals',['../md_manual_2How_01To_01Use.html#autotoc_md25',1,'']]],
+  ['peripherals_8',['Restricted Peripherals',['../md_manual_2How_01To_01Use.html#autotoc_md26',1,'']]],
   ['pll_5fm_201_9',['PLL_M                                  | 1',['../system__stm32l4xx_8c.html#autotoc_md7',1,'']]],
   ['pll_5fn_208_10',['PLL_N                                  | 8',['../system__stm32l4xx_8c.html#autotoc_md8',1,'']]],
   ['pll_5fp_207_11',['PLL_P                                  | 7',['../system__stm32l4xx_8c.html#autotoc_md9',1,'']]],

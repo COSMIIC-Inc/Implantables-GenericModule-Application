@@ -15,7 +15,7 @@ var searchData=
   ['module_12',['Remote Module',['../group__RM.html',1,'']]],
   ['module_20application_13',['Module Application',['../group__application.html',1,'']]],
   ['module_20documentation_14',['NNP Generic Module Documentation',['../index.html',1,'']]],
-  ['module_20folder_15',['module Folder',['../md_manual_2How_01To_01Use.html#autotoc_md23',1,'']]],
+  ['module_20folder_15',['module Folder',['../md_manual_2How_01To_01Use.html#autotoc_md24',1,'']]],
   ['msg_5ferr_16',['MSG_ERR',['../applicfg_8h.html#a99178e2619db849578b20df5aa241844',1,'applicfg.h']]],
   ['msg_5fwar_17',['MSG_WAR',['../applicfg_8h.html#a5f4e5133c4c3113931684d3aba518bba',1,'applicfg.h']]],
   ['msi_18',['System Clock source                    | MSI',['../system__stm32l4xx_8c.html#autotoc_md1',1,'']]],

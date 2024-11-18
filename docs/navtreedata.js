@@ -28,32 +28,33 @@ var NAVTREE =
     [ "NNP Generic Module Documentation", "index.html", "index" ],
     [ "How To Use", "md_manual_2How_01To_01Use.html", [
       [ "Directories", "md_manual_2How_01To_01Use.html#autotoc_md19", [
-        [ "Core/Src", "md_manual_2How_01To_01Use.html#autotoc_md20", null ],
-        [ "Core/Inc", "md_manual_2How_01To_01Use.html#autotoc_md21", null ],
-        [ "Core/app", "md_manual_2How_01To_01Use.html#autotoc_md22", [
-          [ "module Folder", "md_manual_2How_01To_01Use.html#autotoc_md23", null ],
-          [ "Object Dictionary", "md_manual_2How_01To_01Use.html#autotoc_md24", null ]
+        [ "Root", "md_manual_2How_01To_01Use.html#autotoc_md20", null ],
+        [ "Core/Src", "md_manual_2How_01To_01Use.html#autotoc_md21", null ],
+        [ "Core/Inc", "md_manual_2How_01To_01Use.html#autotoc_md22", null ],
+        [ "Core/app", "md_manual_2How_01To_01Use.html#autotoc_md23", [
+          [ "module Folder", "md_manual_2How_01To_01Use.html#autotoc_md24", null ],
+          [ "Object Dictionary", "md_manual_2How_01To_01Use.html#autotoc_md25", null ]
         ] ]
       ] ],
-      [ "Restricted Peripherals", "md_manual_2How_01To_01Use.html#autotoc_md25", null ],
-      [ "Configuration Differences", "md_manual_2How_01To_01Use.html#autotoc_md26", [
-        [ "Core/Src/system_stm32l4xx.c", "md_manual_2How_01To_01Use.html#autotoc_md27", null ],
-        [ "STM32L433RCTXP_FLASH.ld", "md_manual_2How_01To_01Use.html#autotoc_md28", null ]
+      [ "Restricted Peripherals", "md_manual_2How_01To_01Use.html#autotoc_md26", null ],
+      [ "Configuration Differences", "md_manual_2How_01To_01Use.html#autotoc_md27", [
+        [ "Core/Src/system_stm32l4xx.c", "md_manual_2How_01To_01Use.html#autotoc_md28", null ],
+        [ "STM32L433RCTXP_FLASH.ld", "md_manual_2How_01To_01Use.html#autotoc_md29", null ]
       ] ],
-      [ "Object Dictionary", "md_manual_2How_01To_01Use.html#autotoc_md29", [
-        [ "Default/Common Entries", "md_manual_2How_01To_01Use.html#autotoc_md30", null ],
-        [ "Adding Entries", "md_manual_2How_01To_01Use.html#autotoc_md31", [
-          [ "Creating Variables", "md_manual_2How_01To_01Use.html#autotoc_md32", null ],
-          [ "Defining Object Dictionary Structures", "md_manual_2How_01To_01Use.html#autotoc_md33", null ],
-          [ "Registering Object Dictionary Entries", "md_manual_2How_01To_01Use.html#autotoc_md34", null ]
+      [ "Object Dictionary", "md_manual_2How_01To_01Use.html#autotoc_md30", [
+        [ "Default/Common Entries", "md_manual_2How_01To_01Use.html#autotoc_md31", null ],
+        [ "Adding Entries", "md_manual_2How_01To_01Use.html#autotoc_md32", [
+          [ "Creating Variables", "md_manual_2How_01To_01Use.html#autotoc_md33", null ],
+          [ "Defining Object Dictionary Structures", "md_manual_2How_01To_01Use.html#autotoc_md34", null ],
+          [ "Registering Object Dictionary Entries", "md_manual_2How_01To_01Use.html#autotoc_md35", null ]
         ] ],
-        [ "Adding Callbacks", "md_manual_2How_01To_01Use.html#autotoc_md35", [
-          [ "Registering an Object Dictionary Callback to a Function", "md_manual_2How_01To_01Use.html#autotoc_md36", null ]
+        [ "Adding Callbacks", "md_manual_2How_01To_01Use.html#autotoc_md36", [
+          [ "Registering an Object Dictionary Callback to a Function", "md_manual_2How_01To_01Use.html#autotoc_md37", null ]
         ] ],
-        [ "Add to Restore List", "md_manual_2How_01To_01Use.html#autotoc_md37", null ]
+        [ "Add to Restore List", "md_manual_2How_01To_01Use.html#autotoc_md38", null ]
       ] ],
-      [ "Adding Functionality", "md_manual_2How_01To_01Use.html#autotoc_md38", [
-        [ "STM_RM.ioc", "md_manual_2How_01To_01Use.html#autotoc_md39", null ]
+      [ "Adding Functionality", "md_manual_2How_01To_01Use.html#autotoc_md39", [
+        [ "STM_RM.ioc", "md_manual_2How_01To_01Use.html#autotoc_md40", null ]
       ] ]
     ] ],
     [ "Topics", "topics.html", "topics" ],
@@ -81,7 +82,7 @@ var NAVTREEINDEX =
 [
 "ObjDict_8c.html",
 "group__sdo.html#ga7ca56a650c5daaa24c89370f3b3d7bb0",
-"sysmem_8c.html#a68125648bcce70b6bb3aa0be50e99700"
+"sysmem_8c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

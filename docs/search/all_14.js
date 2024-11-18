@@ -10,8 +10,8 @@ var searchData=
   ['readnetworkdictcallbackai_7',['readNetworkDictCallbackAI',['../group__sdo.html#ga5fe9abeafde31c9c8bf7d468c1dcb6c9',1,'readNetworkDictCallbackAI(CO_Data *d, UNS8 nodeId, UNS16 index, UNS8 subIndex, UNS8 dataType, SDOCallback_t Callback):&#160;sdo.c'],['../group__sdo.html#ga5fe9abeafde31c9c8bf7d468c1dcb6c9',1,'readNetworkDictCallbackAI(CO_Data *d, UNS8 nodeId, UNS16 index, UNS8 subIndex, UNS8 dataType, SDOCallback_t Callback):&#160;sdo.c']]],
   ['real32_8',['REAL32',['../applicfg_8h.html#aa317e78f368f51a31a7ea72ea7afbc89',1,'applicfg.h']]],
   ['real64_9',['REAL64',['../applicfg_8h.html#a3c2031a645686699b0f1e3b0ceaac6ee',1,'applicfg.h']]],
-  ['registering_20an_20object_20dictionary_20callback_20to_20a_20function_10',['Registering an Object Dictionary Callback to a Function',['../md_manual_2How_01To_01Use.html#autotoc_md36',1,'']]],
-  ['registering_20object_20dictionary_20entries_11',['Registering Object Dictionary Entries',['../md_manual_2How_01To_01Use.html#autotoc_md34',1,'']]],
+  ['registering_20an_20object_20dictionary_20callback_20to_20a_20function_10',['Registering an Object Dictionary Callback to a Function',['../md_manual_2How_01To_01Use.html#autotoc_md37',1,'']]],
+  ['registering_20object_20dictionary_20entries_11',['Registering Object Dictionary Entries',['../md_manual_2How_01To_01Use.html#autotoc_md35',1,'']]],
   ['registersetodentrycallback_12',['RegisterSetODentryCallBack',['../group__od.html#ga514e7b9c13835a86446b1cd38fa34049',1,'RegisterSetODentryCallBack(CO_Data *d, UNS16 wIndex, UNS8 bSubindex, ODCallback_t Callback):&#160;objacces.c'],['../group__od.html#ga514e7b9c13835a86446b1cd38fa34049',1,'RegisterSetODentryCallBack(CO_Data *d, UNS16 wIndex, UNS8 bSubindex, ODCallback_t Callback):&#160;objacces.c']]],
   ['remote_20module_13',['Remote Module',['../group__RM.html',1,'']]],
   ['request_14',['REQUEST',['../def_8h.html#a6baece8be8f9ab55223d41b535511b6f',1,'def.h']]],
@@ -20,11 +20,12 @@ var searchData=
   ['resetsdoline_17',['resetSDOline',['../group__sdo.html#ga42d33be015d4c4c83c73f1f0e588f481',1,'resetSDOline(CO_Data *d, UNS8 line):&#160;sdo.c'],['../group__sdo.html#ga42d33be015d4c4c83c73f1f0e588f481',1,'resetSDOline(CO_Data *d, UNS8 line):&#160;sdo.c']]],
   ['resettimeout_18',['resetTimeOut',['../timer_8h.html#a8875d1ab378b46e603991c9c22a44c92',1,'resetTimeOut(UNS32 *tRef):&#160;timer_stm.c'],['../timer__stm_8c.html#a8875d1ab378b46e603991c9c22a44c92',1,'resetTimeOut(UNS32 *tRef):&#160;timer_stm.c']]],
   ['resettooddefault_19',['ResetToODDefault',['../group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f',1,'ResetToODDefault(void):&#160;eedata.c'],['../group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f',1,'ResetToODDefault(void):&#160;eedata.c']]],
-  ['restore_20list_20',['Add to Restore List',['../md_manual_2How_01To_01Use.html#autotoc_md37',1,'']]],
+  ['restore_20list_20',['Add to Restore List',['../md_manual_2How_01To_01Use.html#autotoc_md38',1,'']]],
   ['restorevalues_21',['RestoreValues',['../group__EEPROM.html#ga4f7cafc47d8a2c5da21c31fefd13b9dd',1,'RestoreValues(void):&#160;eedata.c'],['../group__EEPROM.html#ga4f7cafc47d8a2c5da21c31fefd13b9dd',1,'RestoreValues(void):&#160;eedata.c']]],
-  ['restricted_20peripherals_22',['Restricted Peripherals',['../md_manual_2How_01To_01Use.html#autotoc_md25',1,'']]],
+  ['restricted_20peripherals_22',['Restricted Peripherals',['../md_manual_2How_01To_01Use.html#autotoc_md26',1,'']]],
   ['rng_20clock_23',['SDIO and RNG clock                     |',['../system__stm32l4xx_8c.html#autotoc_md18',1,'']]],
-  ['rtr_24',['rtr',['../structMessage.html#a41c5a4e7eaeb2c2ae1af2b2c83129615',1,'Message']]],
-  ['runapptask_25',['runAppTask',['../group__application.html#ga176d6f2ce88ec1bba75c6f110b210241',1,'runAppTask(UNS32 param):&#160;app.c'],['../group__application.html#ga176d6f2ce88ec1bba75c6f110b210241',1,'runAppTask(UNS32):&#160;app.c']]],
-  ['rw_26',['RW',['../objdictdef_8h.html#afc4ded33ac0ca43defcce639e965748a',1,'objdictdef.h']]]
+  ['root_24',['Root',['../md_manual_2How_01To_01Use.html#autotoc_md20',1,'']]],
+  ['rtr_25',['rtr',['../structMessage.html#a41c5a4e7eaeb2c2ae1af2b2c83129615',1,'Message']]],
+  ['runapptask_26',['runAppTask',['../group__application.html#ga176d6f2ce88ec1bba75c6f110b210241',1,'runAppTask(UNS32 param):&#160;app.c'],['../group__application.html#ga176d6f2ce88ec1bba75c6f110b210241',1,'runAppTask(UNS32):&#160;app.c']]],
+  ['rw_27',['RW',['../objdictdef_8h.html#afc4ded33ac0ca43defcce639e965748a',1,'objdictdef.h']]]
 ];
