@@ -1,0 +1,5 @@
+<map id="resetSDOline" name="resetSDOline">
+<area shape="rect" id="Node000001" title="Reset an unused line." alt="" coords="5,5,112,31"/>
+<area shape="rect" id="Node000002" href="$group__sdo.html#gab9c873a15f55b29112b5527a6cc6898d" title="Initialize some fields of the structure." alt="" coords="160,5,255,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,15,146,15,146,21,112,21"/>
+</map>

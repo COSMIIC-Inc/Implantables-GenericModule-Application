@@ -1,0 +1,19 @@
+<map id="EEPROM_read" name="EEPROM_read">
+<area shape="rect" id="Node000001" title="Reads bytes from a specified location in EEPROM." alt="" coords="549,56,663,81"/>
+<area shape="rect" id="Node000002" href="$group__EEPROM.html#ga244d1d013144415d1f35f2fdb20e6732" title="checks whether or not RestoreValues() should be run." alt="" coords="177,5,317,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="545,55,501,46,405,33,317,25,318,20,406,28,502,41,546,50"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a9f1e6a5ed0f909037af234d067d94c6d" title="used with handshake through the OD at 0x2020 to allow remote reading of values in the emulated eeprom..." alt="" coords="391,56,497,81"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="535,71,497,71,497,66,535,66"/>
+<area shape="rect" id="Node000006" href="$group__EEPROM.html#ga4f7cafc47d8a2c5da21c31fefd13b9dd" title="Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EE..." alt="" coords="387,105,501,131"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="551,88,488,108,486,103,550,83"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="29,55,84,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="185,37,85,63,84,58,184,32"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a3eeab65a540d78f5317a0895519b9078" title="Command processor to let CE read various memory locations." alt="" coords="193,55,302,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="378,71,302,70,302,65,378,66"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="179,70,84,70,84,65,179,65"/>
+<area shape="poly" id="edge7_Node000006_Node000003" title=" " alt="" coords="373,117,270,109,156,94,84,78,85,72,156,89,270,103,373,112"/>
+<area shape="rect" id="Node000007" href="$group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,156,339,181"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="381,137,298,159,297,153,380,132"/>
+<area shape="rect" id="Node000008" href="$states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,156,108,181"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="142,171,108,171,108,166,142,166"/>
+</map>

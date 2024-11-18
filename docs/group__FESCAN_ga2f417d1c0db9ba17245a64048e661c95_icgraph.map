@@ -1,0 +1,7 @@
+<map id="EnterPatientOperationFunc" name="EnterPatientOperationFunc">
+<area shape="rect" id="Node000001" title="Lets application process NMT_Enter_Patient_Operation." alt="" coords="387,5,581,31"/>
+<area shape="rect" id="Node000002" href="$group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,5,339,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="373,21,339,21,339,15,373,15"/>
+<area shape="rect" id="Node000003" href="$states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,5,108,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="142,21,108,21,108,15,142,15"/>
+</map>

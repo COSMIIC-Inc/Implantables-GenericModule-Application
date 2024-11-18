@@ -1,0 +1,11 @@
+<map id="Error_Handler" name="Error_Handler">
+<area shape="rect" id="Node000001" title="This function is executed in case of error occurrence." alt="" coords="311,55,421,80"/>
+<area shape="rect" id="Node000002" href="$stm32l4xx__hal__msp_8c.html#aa30863492d5c3103e3e8ce8a63dadd07" title="ADC MSP Initialization This function configures the hardware resources used in this example." alt="" coords="116,5,255,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="305,53,232,33,234,28,306,48"/>
+<area shape="rect" id="Node000003" href="$stm32l4xx__hal__msp_8c.html#abe01a202c27b23fc150aa66af3130073" title="I2C MSP Initialization This function configures the hardware resources used in this example." alt="" coords="120,55,251,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="297,70,251,70,251,65,297,65"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a70af21c671abfcc773614a9a4f63d920" title="System Clock Configuration." alt="" coords="108,104,263,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="306,86,234,106,232,101,305,81"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,104,60,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,119,60,119,60,114,94,114"/>
+</map>

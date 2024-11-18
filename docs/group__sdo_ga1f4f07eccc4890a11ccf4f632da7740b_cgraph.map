@@ -1,0 +1,7 @@
+<map id="resetSDO" name="resetSDO">
+<area shape="rect" id="Node000001" title="Reset all SDO buffers." alt="" coords="5,5,88,31"/>
+<area shape="rect" id="Node000002" href="$group__sdo.html#ga42d33be015d4c4c83c73f1f0e588f481" title="Reset an unused line." alt="" coords="136,5,243,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,15,122,15,122,21,88,21"/>
+<area shape="rect" id="Node000003" href="$group__sdo.html#gab9c873a15f55b29112b5527a6cc6898d" title="Initialize some fields of the structure." alt="" coords="291,5,385,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,15,277,15,277,21,243,21"/>
+</map>
