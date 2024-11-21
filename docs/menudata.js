@@ -93,4 +93,9 @@ var menudata={children:[
 {text:"s",url:"globals_defs.html#index_s"},
 {text:"t",url:"globals_defs.html#index_t"},
 {text:"u",url:"globals_defs.html#index_u"},
-{text:"v",url:"globals_defs.html#index_v"}]}]}]}]}
+{text:"v",url:"globals_defs.html#index_v"}]}]}]},
+{text:"COSMIIC Links",url:"",children:[
+{text:"Main Site",url:"^https://cosmiic.org/"},
+{text:"COSMIIC Docs",url:"^https://docs.cosmiic.org/"},
+{text:"COSMIIC GitHub",url:"^https://github.com/COSMIIC-Inc"},
+{text:"Contact",url:"^https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19"}]}]}

@@ -74,6 +74,12 @@ var NAVTREE =
         [ "Typedefs", "globals_type.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
+    ] ],
+    [ "COSMIIC Links", null, [
+      [ "Main Site", "^https://cosmiic.org/", null ],
+      [ "COSMIIC Docs", "^https://docs.cosmiic.org/", null ],
+      [ "COSMIIC GitHub", "^https://github.com/COSMIIC-Inc", null ],
+      [ "Contact", "^https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19", null ]
     ] ]
   ] ]
 ];
