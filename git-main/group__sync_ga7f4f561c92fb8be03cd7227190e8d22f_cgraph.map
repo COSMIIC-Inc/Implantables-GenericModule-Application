@@ -1,0 +1,25 @@
+<map id="processSYNC" name="processSYNC">
+<area shape="rect" id="Node000001" title="This function is called when the node is receiving a SYNC message (cob&#45;id = 0x80)." alt="" coords="5,129,112,155"/>
+<area shape="rect" id="Node000002" href="$group__pdo.html#ga95c3686cda4e9e6f7c847d2d0bb88fe8" title="Function iterates on all TPDO and look TPDO transmit type and content change before sending it." alt="" coords="203,104,328,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,133,189,123,189,129,112,138"/>
+<area shape="rect" id="Node000011" href="$group__application.html#ga029280b253d1107ff9e68f7fa86d7ab5" title="Lets application process SYNC message if necessary." alt="" coords="160,153,371,179"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="112,145,146,149,146,155,112,151"/>
+<area shape="rect" id="Node000003" href="$group__pdo.html#ga889902163641f6fc8039550cb11ec320" title="Copy all the data to transmit in process_var Prepare the PDO defined at index to be sent *pwCobId : r..." alt="" coords="461,5,544,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="289,101,346,71,418,40,447,30,449,35,420,44,349,76,291,106"/>
+<area shape="rect" id="Node000005" href="$group__timer.html#ga991b3cfaac2f201b14d5530f75985c21" title="Delete an alarm before expiring." alt="" coords="461,55,544,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="327,101,447,76,448,81,328,107"/>
+<area shape="rect" id="Node000006" href="$group__pdo.html#gae983f9075bd04d0afff7391891a0d7c3" title="Set timer for PDO event." alt="" coords="421,104,585,129"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="328,122,407,123,407,128,328,127"/>
+<area shape="rect" id="Node000007" href="$group__pdo.html#ga6eac02502a8822815b8324fdb9cbb6dd" title="Inhibit timer for PDO event." alt="" coords="419,153,587,179"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="298,127,406,152,405,157,297,132"/>
+<area shape="rect" id="Node000008" href="$group__timer.html#ga11c2616d78f06ed9144ef662f757b128" title="Set an alarm to execute a callback function when expired." alt="" coords="461,203,544,228"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="329,122,372,138,388,151,397,163,406,176,420,188,449,201,447,206,417,192,402,179,393,167,384,154,369,143,327,127"/>
+<area shape="rect" id="Node000004" href="$group__pdo.html#gae468510c9f77f502207d961d26389918" title="copy bit per bit in little endian" alt="" coords="658,5,738,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="544,15,644,15,644,21,544,21"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="421,111,342,111,342,106,421,105"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="470,156,341,127,342,121,471,151"/>
+<area shape="rect" id="Node000009" href="$timer__stm_8c.html#a4dccc204d52176bd547ab34d6858f5ba" title="Return the elapsed time to tell the Stack how much time is spent since last call." alt="" coords="635,177,761,203"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="544,207,621,197,621,203,545,213"/>
+<area shape="rect" id="Node000010" href="$timer__stm_8c.html#ab8d05dee70f04b5c5190ab00e84da106" title="Set the timer peripheral for the next interrupt." alt="" coords="658,227,738,252"/>
+<area shape="poly" id="edge11_Node000008_Node000010" title=" " alt="" coords="545,218,645,230,644,235,544,223"/>
+</map>

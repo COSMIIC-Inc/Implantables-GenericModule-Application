@@ -1,0 +1,5 @@
+<map id="masterSendNMTnodeguard" name="masterSendNMTnodeguard">
+<area shape="rect" id="Node000001" title="Transmit a NodeGuard message on the network to the slave whose nodeId is node ID." alt="" coords="243,5,441,31"/>
+<area shape="rect" id="Node000002" href="$group__nmtmaster.html#ga98bee3f402438056dbd653e752054796" title="Ask the state of the slave node whose nodeId is node Id." alt="" coords="5,5,195,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="229,21,195,21,195,15,229,15"/>
+</map>

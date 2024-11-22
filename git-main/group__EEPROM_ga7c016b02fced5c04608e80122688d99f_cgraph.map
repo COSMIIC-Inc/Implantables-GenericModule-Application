@@ -1,0 +1,11 @@
+<map id="ResetToODDefault" name="ResetToODDefault">
+<area shape="rect" id="Node000001" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset" alt="" coords="5,80,147,105"/>
+<area shape="rect" id="Node000002" href="$group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="195,5,329,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,77,194,40,211,33,213,38,196,44,107,82"/>
+<area shape="rect" id="Node000003" href="$group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="204,55,320,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,80,190,74,191,80,148,86"/>
+<area shape="rect" id="Node000004" href="$group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM." alt="" coords="203,104,321,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,99,190,105,189,110,147,104"/>
+<area shape="rect" id="Node000005" href="$group__EEPROM.html#ga93edb3760bfdc6e22332313a963bc6e2" title="resets module, called by ResetToODDefault()" alt="" coords="209,153,315,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="109,103,196,138,215,146,214,151,194,143,107,108"/>
+</map>

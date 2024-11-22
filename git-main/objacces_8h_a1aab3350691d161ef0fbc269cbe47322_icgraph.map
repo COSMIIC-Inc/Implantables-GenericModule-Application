@@ -1,0 +1,71 @@
+<map id="scanIndexOD" name="scanIndexOD">
+<area shape="rect" id="Node000001" title="Scan the index of object dictionary. Used only by setODentry and getODentry." alt="" coords="1680,542,1788,567"/>
+<area shape="rect" id="Node000002" href="$group__pdo.html#ga474688163fc6e1ffe47d56143a051714" title="Initialize PDO feature." alt="" coords="1072,442,1143,467"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1666,546,1142,462,1143,457,1666,541"/>
+<area shape="rect" id="Node000019" href="$group__od.html#ga514e7b9c13835a86446b1cd38fa34049" title="&lt;BRIEF&gt;" alt="" coords="1424,592,1632,618"/>
+<area shape="poly" id="edge29_Node000001_Node000019" title=" " alt="" coords="1669,573,1581,595,1580,590,1668,568"/>
+<area shape="rect" id="Node000003" href="$group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,422,339,447"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1085,433,1013,351,960,296,898,238,827,179,750,124,667,76,580,38,526,19,480,9,458,9,436,13,413,22,388,38,365,57,344,79,311,129,286,185,270,244,259,300,254,351,251,422,246,422,248,350,254,299,265,242,281,184,306,127,340,76,361,53,385,33,411,18,435,8,457,3,480,3,527,14,582,33,669,71,752,119,830,175,901,234,964,292,1017,347,1089,429"/>
+<area shape="rect" id="Node000005" href="$group__statemachine.html#ga915991eebf7c2ac6c929c6c9cfbd7d03" title="&lt;BRIEF&gt; switchCommunicationState" alt="" coords="753,567,955,592"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1059,464,1004,481,964,501,928,525,872,569,868,564,924,521,962,497,1002,476,1058,459"/>
+<area shape="rect" id="Node000004" href="$states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,422,108,447"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,437,108,437,108,432,142,432"/>
+<area shape="rect" id="Node000006" href="$group__statemachine.html#ga0a5004efd1dedbee82a4f21ec5c44fb5" title="Change the state of the node." alt="" coords="629,371,705,396"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="829,559,679,399,683,395,833,555"/>
+<area shape="poly" id="edge22_Node000006_Node000003" title=" " alt="" coords="615,381,510,377,448,379,387,386,327,403,276,424,274,419,325,398,386,381,448,374,510,371,616,376"/>
+<area shape="rect" id="Node000007" href="$group__FESCAN.html#ga4734a918427914d1604b891a4f706068" title="Lets application process NMT_Enter_Patient_Manual." alt="" coords="395,396,573,422"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="616,393,574,399,573,394,615,388"/>
+<area shape="rect" id="Node000008" href="$group__FESCAN.html#ga2f417d1c0db9ba17245a64048e661c95" title="Lets application process NMT_Enter_Patient_Operation." alt="" coords="387,446,581,471"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="637,406,582,435,545,448,543,443,580,430,634,402"/>
+<area shape="rect" id="Node000009" href="$group__FESCAN.html#ga1f5a5118a62ae3edba3225778645756e" title="Lets application process NMT_Produce_X_Manual." alt="" coords="387,495,581,520"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="654,409,624,448,605,468,583,485,555,497,553,493,580,480,601,464,620,445,649,406"/>
+<area shape="rect" id="Node000010" href="$group__FESCAN.html#ga4a2018e300c0d24f8fc25f3eea00f4c5" title="Lets application process NMT_Enter_Record_X." alt="" coords="414,544,554,570"/>
+<area shape="poly" id="edge12_Node000006_Node000010" title=" " alt="" coords="661,411,633,473,611,506,583,534,555,548,553,544,580,529,607,502,628,470,656,409"/>
+<area shape="rect" id="Node000011" href="$group__FESCAN.html#ga3c16e02713c72b9c4e226ae4e816214c" title="Lets application process NMT_Enter_Stop_Stim." alt="" coords="411,594,557,619"/>
+<area shape="poly" id="edge14_Node000006_Node000011" title=" " alt="" coords="665,411,656,449,641,496,617,543,602,564,583,583,558,598,555,593,580,579,597,561,613,540,636,494,651,448,660,410"/>
+<area shape="rect" id="Node000012" href="$group__FESCAN.html#ga7b1df671667470f6ab7df0738b15b512" title="Lets application process NMT_Enter_Waiting." alt="" coords="417,643,551,668"/>
+<area shape="poly" id="edge16_Node000006_Node000012" title=" " alt="" coords="667,411,662,458,648,518,623,579,605,607,583,632,553,650,550,645,580,628,601,604,618,577,643,516,656,457,662,410"/>
+<area shape="rect" id="Node000013" href="$group__FESCAN.html#gaf99f15f07e3176170c1134fa7089faf2" title="Lets application process NMT_Enter_X_Manual." alt="" coords="413,147,555,172"/>
+<area shape="poly" id="edge18_Node000006_Node000013" title=" " alt="" coords="660,358,652,319,637,272,613,225,598,204,580,186,554,171,557,167,583,181,602,201,618,223,642,270,657,318,665,357"/>
+<area shape="rect" id="Node000014" href="$group__FESCAN.html#ga424677d55a9543c97ab00155f1c4f0c8" title="Lets application process NMT_Enter_Y_Manual." alt="" coords="413,196,555,222"/>
+<area shape="poly" id="edge20_Node000006_Node000014" title=" " alt="" coords="656,359,629,296,607,263,580,235,554,222,557,217,583,231,612,260,634,293,661,357"/>
+<area shape="rect" id="Node000015" href="$group__nmtslave.html#ga2a778a0045fcc9f42b8642a4ebb66473" title="&lt;BRIEF&gt; setNodeStateToStopped" alt="" coords="395,48,573,74"/>
+<area shape="poly" id="edge23_Node000006_Node000015" title=" " alt="" coords="664,357,662,301,650,228,640,189,625,152,605,117,580,87,564,76,567,71,583,83,609,114,630,150,645,188,656,227,667,300,669,357"/>
+<area shape="rect" id="Node000016" href="$main_8c.html#a5740f006c2a386cf40adde1c150c69ea" title="Callback that runs at the beginning of timer execution." alt="" coords="427,98,541,123"/>
+<area shape="poly" id="edge24_Node000006_Node000016" title=" " alt="" coords="662,357,657,309,644,249,619,188,601,161,580,136,561,124,540,117,542,112,564,119,583,132,606,157,624,186,649,248,662,308,668,356"/>
+<area shape="rect" id="Node000017" href="$group__FESCAN.html#gaae764b83573ac5926b3363ebc3e4c01d" title="Lets application process NMT_Start_Nodes (unused)" alt="" coords="422,246,546,271"/>
+<area shape="poly" id="edge25_Node000006_Node000017" title=" " alt="" coords="650,361,621,321,602,301,580,285,545,270,547,265,583,280,605,297,625,318,654,358"/>
+<area shape="rect" id="Node000018" href="$group__FESCAN.html#ga6a8eaad52e1fd13ea3faeff899708872" title="Lets application process NMT_Stop_Nodes." alt="" coords="423,295,545,320"/>
+<area shape="poly" id="edge27_Node000006_Node000018" title=" " alt="" coords="631,367,580,342,527,323,529,318,582,337,633,362"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="381,423,339,427,339,422,381,417"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="373,450,339,446,339,441,373,444"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="418,494,386,485,282,450,284,445,387,480,419,489"/>
+<area shape="poly" id="edge13_Node000010_Node000003" title=" " alt="" coords="407,543,386,534,348,514,314,491,261,449,265,445,317,486,351,509,388,529,409,538"/>
+<area shape="poly" id="edge15_Node000011_Node000003" title=" " alt="" coords="401,591,385,583,342,551,304,513,255,449,259,445,308,510,345,547,388,579,403,586"/>
+<area shape="poly" id="edge17_Node000012_Node000003" title=" " alt="" coords="403,642,385,632,359,612,336,587,297,535,269,485,251,448,256,446,273,482,302,532,340,584,363,608,388,628,405,637"/>
+<area shape="poly" id="edge19_Node000013_Node000003" title=" " alt="" coords="401,178,388,186,359,213,334,244,294,313,268,377,254,422,249,421,263,375,289,310,329,241,355,209,385,181,398,173"/>
+<area shape="poly" id="edge21_Node000014_Node000003" title=" " alt="" coords="401,228,388,235,362,256,339,280,301,334,273,385,256,423,251,420,268,383,296,331,335,277,359,252,385,231,399,223"/>
+<area shape="poly" id="edge26_Node000017_Node000003" title=" " alt="" coords="410,274,388,285,345,317,308,356,259,423,254,420,303,353,341,313,385,280,407,270"/>
+<area shape="poly" id="edge28_Node000018_Node000003" title=" " alt="" coords="424,327,388,342,318,384,266,423,263,419,315,380,385,337,422,322"/>
+<area shape="rect" id="Node000020" href="$group__emcy.html#gac1ae9a72b60fc7dfde81d1c70b3f3196" title="Start EMCY consumer and producer." alt="" coords="1260,592,1376,618"/>
+<area shape="poly" id="edge30_Node000019_Node000020" title=" " alt="" coords="1410,608,1376,608,1376,602,1410,602"/>
+<area shape="rect" id="Node000021" href="$group__heartbeat.html#ga8896f6846e4d020390f6953f3d98aa21" title="Start heartbeat consumer and producer with respect to 0x1016 and 0x1017 object dictionary entries." alt="" coords="1265,530,1371,555"/>
+<area shape="poly" id="edge32_Node000019_Node000021" title=" " alt="" coords="1471,591,1361,558,1362,552,1472,586"/>
+<area shape="rect" id="Node000023" href="$group__sync.html#ga2e0bf669f5b40dfbdda0f12a5ae3631a" title="&lt;BRIEF&gt; startSYNC" alt="" coords="1064,744,1151,770"/>
+<area shape="poly" id="edge36_Node000019_Node000023" title=" " alt="" coords="1503,628,1447,669,1413,690,1377,707,1317,728,1256,742,1151,757,1151,751,1255,737,1316,722,1375,702,1411,685,1444,665,1500,624"/>
+<area shape="rect" id="Node000025" href="$group__sync.html#ga41c47dbd59d22bf9bab6cd288cf27164" title="&lt;BRIEF&gt; stopSYNC" alt="" coords="1275,668,1361,694"/>
+<area shape="poly" id="edge41_Node000019_Node000025" title=" " alt="" coords="1480,625,1355,671,1353,666,1478,620"/>
+<area shape="poly" id="edge31_Node000020_Node000005" title=" " alt="" coords="1246,604,955,588,955,582,1246,598"/>
+<area shape="poly" id="edge35_Node000021_Node000005" title=" " alt="" coords="1252,550,955,574,955,569,1251,545"/>
+<area shape="rect" id="Node000022" href="$group__heartbeat.html#ga098c81fb9326fb2c7b43e88a55ce1368" title="This is called when Index 0x1017 is updated." alt="" coords="1003,491,1212,516"/>
+<area shape="poly" id="edge33_Node000021_Node000022" title=" " alt="" coords="1250,541,1140,519,1142,514,1251,536"/>
+<area shape="poly" id="edge34_Node000022_Node000021" title=" " alt="" coords="1226,514,1285,527,1284,532,1225,519"/>
+<area shape="poly" id="edge39_Node000023_Node000003" title=" " alt="" coords="1052,776,921,804,837,816,746,822,651,819,557,804,511,791,467,774,425,753,385,727,351,696,323,659,300,619,282,577,259,501,248,448,253,447,264,500,287,576,305,616,328,656,355,692,388,723,427,748,469,769,513,786,558,799,652,813,746,816,837,811,920,799,1051,771"/>
+<area shape="poly" id="edge40_Node000023_Node000005" title=" " alt="" coords="1075,738,872,595,875,590,1078,734"/>
+<area shape="rect" id="Node000024" href="$group__sync.html#ga82595787f641ab85980d83522f1158b0" title="This is called when Index 0x1005 is updated." alt="" coords="767,744,941,770"/>
+<area shape="poly" id="edge37_Node000023_Node000024" title=" " alt="" coords="1050,767,942,768,942,763,1050,762"/>
+<area shape="poly" id="edge38_Node000024_Node000023" title=" " alt="" coords="956,745,1064,747,1063,753,955,751"/>
+<area shape="poly" id="edge42_Node000025_Node000003" title=" " alt="" coords="1261,689,1081,702,855,709,666,709,585,714,519,721,488,721,456,715,422,703,385,682,354,657,328,627,306,594,288,559,262,494,249,448,254,447,267,493,292,557,310,591,332,624,358,653,388,677,425,698,458,710,488,715,519,716,584,709,666,704,855,704,1081,696,1261,683"/>
+<area shape="poly" id="edge44_Node000025_Node000005" title=" " alt="" coords="1261,672,913,595,914,590,1263,666"/>
+<area shape="poly" id="edge43_Node000025_Node000023" title=" " alt="" coords="1277,702,1213,727,1152,747,1150,742,1211,722,1275,697"/>
+</map>
