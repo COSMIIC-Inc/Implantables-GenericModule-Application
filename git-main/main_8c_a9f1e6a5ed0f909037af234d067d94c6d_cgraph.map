@@ -1,0 +1,5 @@
+<map id="ReadEEProm" name="ReadEEProm">
+<area shape="rect" id="Node000001" title="used with handshake through the OD at 0x2020 to allow remote reading of values in the emulated eeprom..." alt="" coords="5,5,111,31"/>
+<area shape="rect" id="Node000002" href="$group__EEPROM.html#ga6b7d41d7322da9af61c598d80af92958" title="Reads bytes from a specified location in EEPROM." alt="" coords="159,5,272,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,15,145,15,145,21,111,21"/>
+</map>

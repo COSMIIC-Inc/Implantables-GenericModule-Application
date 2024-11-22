@@ -1,0 +1,5 @@
+<map id="getReadResultNetworkDict" name="getReadResultNetworkDict">
+<area shape="rect" id="Node000001" title="Use this function after calling readNetworkDict to get the result." alt="" coords="5,5,204,31"/>
+<area shape="rect" id="Node000002" href="$group__sdo.html#gabb0c376b048ab2c6e0524b135b62376f" title="Search for the line, in the transfers array, which contains the beginning of the reception of a fragm..." alt="" coords="252,5,391,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,15,238,15,238,21,204,21"/>
+</map>

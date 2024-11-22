@@ -1,0 +1,7 @@
+<map id="TimeDispatch" name="TimeDispatch">
+<area shape="rect" id="Node000001" title="TimeDispatch is called on each timer expiration &#45;—." alt="" coords="5,31,117,56"/>
+<area shape="rect" id="Node000002" href="$timer__stm_8c.html#a4dccc204d52176bd547ab34d6858f5ba" title="Return the elapsed time to tell the Stack how much time is spent since last call." alt="" coords="165,5,292,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,32,151,27,152,32,118,38"/>
+<area shape="rect" id="Node000003" href="$timer__stm_8c.html#ab8d05dee70f04b5c5190ab00e84da106" title="Set the timer peripheral for the next interrupt." alt="" coords="189,55,269,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="118,49,175,57,174,62,117,54"/>
+</map>
