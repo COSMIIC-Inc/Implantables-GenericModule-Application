@@ -1,0 +1,11 @@
+<map id="SDOTimeoutAlarm" name="SDOTimeoutAlarm">
+<area shape="rect" id="Node000001" title="Reset of a SDO exchange on timeout. Send a SDO abort." alt="" coords="5,31,148,56"/>
+<area shape="rect" id="Node000002" href="$group__sdo.html#ga42d33be015d4c4c83c73f1f0e588f481" title="Reset an unused line." alt="" coords="200,5,307,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,30,186,25,187,30,149,36"/>
+<area shape="rect" id="Node000004" href="$group__sdo.html#gabb85c47a1a6c3774f87b685b7d493e1d" title="Transmit a SDO error to the client. The reasons may be : Read/Write to a undefined object Read/Write ..." alt="" coords="196,55,311,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,50,183,55,182,60,148,56"/>
+<area shape="rect" id="Node000003" href="$group__sdo.html#gab9c873a15f55b29112b5527a6cc6898d" title="Initialize some fields of the structure." alt="" coords="359,5,453,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,15,345,15,345,21,307,21"/>
+<area shape="rect" id="Node000005" href="$group__sdo.html#gac6b5d7d1439d537da992a96644a1ca5d" title="Transmit a SDO frame on the bus bus_id." alt="" coords="365,55,447,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="311,65,351,65,351,70,311,70"/>
+</map>

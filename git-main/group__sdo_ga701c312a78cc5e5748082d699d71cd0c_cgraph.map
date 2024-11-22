@@ -1,0 +1,16 @@
+<map id="readBlockNetworkDict" name="readBlockNetworkDict">
+<area shape="rect" id="Node000001" title="Used to send a SDO request frame to read in a distant node dictionnary." alt="" coords="5,105,173,131"/>
+<area shape="rect" id="Node000002" href="$group__sdo.html#ga4be8e8eaf887ff0a8c4073fe00f4c10c" title="Used to send a SDO request frame to read in a distant node dictionnary." alt="" coords="221,105,396,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,115,208,115,208,121,174,121"/>
+<area shape="rect" id="Node000003" href="$group__sdo.html#ga58d1f9691977617601beb9e5b4123252" title="Search for an unused line in the transfers array to store a new SDO. ie a line which value of the fie..." alt="" coords="451,5,575,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="328,103,379,72,443,40,459,33,461,38,445,44,382,77,331,108"/>
+<area shape="rect" id="Node000004" href="$group__sdo.html#gabb0c376b048ab2c6e0524b135b62376f" title="Search for the line, in the transfers array, which contains the beginning of the reception of a fragm..." alt="" coords="444,55,583,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="360,103,448,81,449,86,362,108"/>
+<area shape="rect" id="Node000005" href="$group__sdo.html#gab9c873a15f55b29112b5527a6cc6898d" title="Initialize some fields of the structure." alt="" coords="631,131,725,156"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="397,121,617,137,617,142,396,127"/>
+<area shape="rect" id="Node000006" href="$group__sdo.html#ga42d33be015d4c4c83c73f1f0e588f481" title="Reset an unused line." alt="" coords="460,156,567,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="362,128,449,150,448,155,360,133"/>
+<area shape="rect" id="Node000007" href="$group__sdo.html#gac6b5d7d1439d537da992a96644a1ca5d" title="Transmit a SDO frame on the bus bus_id." alt="" coords="473,205,554,231"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="332,129,383,158,445,190,463,198,461,203,443,195,380,163,329,133"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="566,158,617,150,618,155,567,163"/>
+</map>

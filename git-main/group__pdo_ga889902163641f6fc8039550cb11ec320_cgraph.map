@@ -1,0 +1,5 @@
+<map id="buildPDO" name="buildPDO">
+<area shape="rect" id="Node000001" title="Copy all the data to transmit in process_var Prepare the PDO defined at index to be sent *pwCobId : r..." alt="" coords="5,5,88,31"/>
+<area shape="rect" id="Node000002" href="$group__pdo.html#gae468510c9f77f502207d961d26389918" title="copy bit per bit in little endian" alt="" coords="136,5,216,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,15,122,15,122,21,88,21"/>
+</map>

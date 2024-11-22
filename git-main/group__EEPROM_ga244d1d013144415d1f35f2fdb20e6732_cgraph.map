@@ -1,0 +1,5 @@
+<map id="CheckRestoreFlag" name="CheckRestoreFlag">
+<area shape="rect" id="Node000001" title="checks whether or not RestoreValues() should be run." alt="" coords="5,5,145,31"/>
+<area shape="rect" id="Node000002" href="$group__EEPROM.html#ga6b7d41d7322da9af61c598d80af92958" title="Reads bytes from a specified location in EEPROM." alt="" coords="193,5,307,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,15,180,15,180,21,146,21"/>
+</map>

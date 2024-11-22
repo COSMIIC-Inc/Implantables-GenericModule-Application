@@ -1,0 +1,9 @@
+<map id="emergencyInit" name="emergencyInit">
+<area shape="rect" id="Node000001" title="Start EMCY consumer and producer." alt="" coords="5,31,121,56"/>
+<area shape="rect" id="Node000002" href="$group__emcy.html#ga11265d2ea7926d22310f1802ae722c5b" title="This is called when Index 0x1003 is updated." alt="" coords="177,5,369,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,34,164,29,164,34,122,39"/>
+<area shape="rect" id="Node000003" href="$group__od.html#ga514e7b9c13835a86446b1cd38fa34049" title="&lt;BRIEF&gt;" alt="" coords="169,55,377,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,47,156,51,156,57,122,53"/>
+<area shape="rect" id="Node000004" href="$objacces_8c.html#a1aab3350691d161ef0fbc269cbe47322" title="Scan the index of object dictionary. Used only by setODentry and getODentry." alt="" coords="425,55,533,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="378,65,412,65,412,70,378,70"/>
+</map>
