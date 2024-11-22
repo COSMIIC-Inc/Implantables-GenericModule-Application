@@ -1,5 +1,0 @@
-<map id="heartbeatStop" name="heartbeatStop">
-<area shape="rect" id="Node000001" title="Stop heartbeat consumer and producer." alt="" coords="5,5,120,31"/>
-<area shape="rect" id="Node000002" href="$group__timer.html#ga991b3cfaac2f201b14d5530f75985c21" title="Delete an alarm before expiring." alt="" coords="168,5,251,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,15,154,15,154,21,120,21"/>
-</map>

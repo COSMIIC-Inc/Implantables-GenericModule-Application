@@ -1,7 +1,0 @@
-<map id="SetAlarm" name="SetAlarm">
-<area shape="rect" id="Node000001" title="Set an alarm to execute a callback function when expired." alt="" coords="5,31,88,56"/>
-<area shape="rect" id="Node000002" href="$timer__stm_8c.html#a4dccc204d52176bd547ab34d6858f5ba" title="Return the elapsed time to tell the Stack how much time is spent since last call." alt="" coords="136,5,263,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,34,122,28,123,33,89,39"/>
-<area shape="rect" id="Node000003" href="$timer__stm_8c.html#ab8d05dee70f04b5c5190ab00e84da106" title="Set the timer peripheral for the next interrupt." alt="" coords="159,55,239,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="89,47,146,56,146,62,88,52"/>
-</map>
