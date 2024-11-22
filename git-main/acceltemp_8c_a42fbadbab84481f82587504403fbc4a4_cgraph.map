@@ -1,7 +1,0 @@
-<map id="updateAccelerometer" name="updateAccelerometer">
-<area shape="rect" id="Node000001" title="update Accelerometer" alt="" coords="5,31,168,56"/>
-<area shape="rect" id="Node000002" href="$timer__stm_8c.html#a2bf3fad1374f6ea3a78473e116a1f486" title="Checks if a timer has timed out." alt="" coords="223,5,320,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,30,209,24,210,29,169,35"/>
-<area shape="rect" id="Node000003" href="$timer__stm_8c.html#a8875d1ab378b46e603991c9c22a44c92" title="Resets a timed out timer." alt="" coords="216,55,327,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="169,51,203,56,202,61,168,57"/>
-</map>

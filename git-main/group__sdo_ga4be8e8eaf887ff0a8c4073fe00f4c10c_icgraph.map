@@ -1,5 +1,0 @@
-<map id="_readBlockNetworkDict" name="_readBlockNetworkDict">
-<area shape="rect" id="Node000001" title="Used to send a SDO request frame to read in a distant node dictionnary." alt="" coords="221,5,396,31"/>
-<area shape="rect" id="Node000002" href="$group__sdo.html#ga701c312a78cc5e5748082d699d71cd0c" title="Used to send a SDO request frame to read in a distant node dictionnary." alt="" coords="5,5,173,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,21,173,21,173,15,208,15"/>
-</map>

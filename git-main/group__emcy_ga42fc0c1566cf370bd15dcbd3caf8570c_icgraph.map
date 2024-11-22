@@ -1,7 +1,0 @@
-<map id="sendEMCY" name="sendEMCY">
-<area shape="rect" id="Node000001" title="&lt;BRIEF&gt; sendEMCY" alt="" coords="220,31,311,56"/>
-<area shape="rect" id="Node000002" href="$group__emcy.html#ga2b426b69db22c42ab8e51a2b16bfc9f1" title="Indicates it has recovered from error errCode. Also clears corresponding bits in Error register (1001..." alt="" coords="5,5,172,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,38,172,33,173,27,207,32"/>
-<area shape="rect" id="Node000003" href="$group__emcy.html#ga010abb14cd143ac91e7aa55c2be0510b" title="Sets a new error with code errCode. Also sets corresponding bits in Error register (1001h)" alt="" coords="30,55,147,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,54,148,62,147,57,206,49"/>
-</map>

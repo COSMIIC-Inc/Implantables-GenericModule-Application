@@ -1,9 +1,0 @@
-<map id="_writeNetworkDict" name="_writeNetworkDict">
-<area shape="rect" id="Node000001" title="Used to send a SDO request frame to write in a distant node dictionnary." alt="" coords="260,55,403,80"/>
-<area shape="rect" id="Node000002" href="$group__sdo.html#ga5b1848530ec78cf9c297747df09e1c47" title="Used to send a SDO request frame to write the data at the index and subIndex indicated." alt="" coords="41,5,177,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,54,166,33,167,28,261,49"/>
-<area shape="rect" id="Node000003" href="$group__sdo.html#ga4213ba5834ca7aa62c425e557d80e04f" title="Used to send a SDO request frame to write in a distant node dictionnary." alt="" coords="12,55,205,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,70,206,70,206,65,246,65"/>
-<area shape="rect" id="Node000004" href="$group__sdo.html#ga3588b1278534b75148c31ed473406c77" title="Used to send a SDO request frame to write in a distant node dictionnary." alt="" coords="5,104,212,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="261,86,167,107,166,101,260,80"/>
-</map>

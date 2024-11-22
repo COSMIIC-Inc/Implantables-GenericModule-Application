@@ -1,5 +1,0 @@
-<map id="RestoreValues" name="RestoreValues">
-<area shape="rect" id="Node000001" title="Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EE..." alt="" coords="5,5,120,31"/>
-<area shape="rect" id="Node000002" href="$group__EEPROM.html#ga6b7d41d7322da9af61c598d80af92958" title="Reads bytes from a specified location in EEPROM." alt="" coords="168,5,281,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,15,154,15,154,21,120,21"/>
-</map>
