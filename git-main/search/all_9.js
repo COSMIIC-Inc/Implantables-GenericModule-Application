@@ -15,5 +15,5 @@ var searchData=
   ['differences_12',['Configuration Differences',['../md_manual_2How_01To_01Use.html#autotoc_md27',1,'']]],
   ['directories_13',['Directories',['../md_manual_2How_01To_01Use.html#autotoc_md19',1,'']]],
   ['dma1_5fchannel1_5firqhandler_14',['DMA1_Channel1_IRQHandler',['../stm32l4xx__it_8h.html#a7b6fac3d670a4860ebec8a961d5c4a73',1,'DMA1_Channel1_IRQHandler(void):&#160;stm32l4xx_it.c'],['../stm32l4xx__it_8c.html#a7b6fac3d670a4860ebec8a961d5c4a73',1,'DMA1_Channel1_IRQHandler(void):&#160;stm32l4xx_it.c']]],
-  ['documentation_15',['NNP Generic Module Documentation',['../index.html',1,'']]]
+  ['documentation_15',['Documentation',['../md_manual_2How_01To_01Use.html#autotoc_md41',1,'Adding Documentation'],['../index.html',1,'NNP Generic Module Documentation']]]
 ];

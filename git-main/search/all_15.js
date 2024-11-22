@@ -73,7 +73,7 @@ var searchData=
   ['struct_5fs_5ftransfer_70',['struct_s_transfer',['../structstruct__s__transfer.html',1,'']]],
   ['structures_71',['Defining Object Dictionary Structures',['../md_manual_2How_01To_01Use.html#autotoc_md34',1,'']]],
   ['subindex_72',['subindex',['../objdictdef_8h.html#ae7c18947e41316e4309f7604c522cae2',1,'objdictdef.h']]],
-  ['supported_20boards_73',['Supported Boards',['../index.html#autotoc_md43',1,'']]],
+  ['supported_20boards_73',['Supported Boards',['../index.html#autotoc_md44',1,'']]],
   ['svc_5fhandler_74',['SVC_Handler',['../stm32l4xx__it_8h.html#a3e5ddb3df0d62f2dc357e64a3f04a6ce',1,'SVC_Handler(void):&#160;stm32l4xx_it.c'],['../stm32l4xx__it_8c.html#a3e5ddb3df0d62f2dc357e64a3f04a6ce',1,'SVC_Handler(void):&#160;stm32l4xx_it.c']]],
   ['switchcommunicationstate_75',['switchCommunicationState',['../group__statemachine.html#ga915991eebf7c2ac6c929c6c9cfbd7d03',1,'states.c']]],
   ['sync_76',['SYNC',['../group__sync.html',1,'']]],

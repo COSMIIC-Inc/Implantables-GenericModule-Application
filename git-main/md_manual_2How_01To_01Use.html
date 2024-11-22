@@ -212,6 +212,9 @@ $(function(){initNavTree('md_manual_2How_01To_01Use.html',''); initResizable(tru
       </li>
     </ul>
   </li>
+  <li class="level1">
+    <a href="#autotoc_md41">Adding Documentation</a>
+  </li>
 </ul>
 </div>
 <div class="textblock"><h1><a class="anchor" id="autotoc_md19"></a>
@@ -517,7 +520,13 @@ Adding Functionality</h1>
 STM_RM.ioc</h2>
 <p>‎<code>STM_RM.ioc</code> is the STM32CubeMX configuration file that enables creation of initialization code for pin function and system clocks through a GUI.</p>
 <p>As long as the existing set up peripherals and pin assignments are not modified, the ioc file can be used to add additional peripherals and GPIO to the project.</p>
-<dl class="section note"><dt>Note</dt><dd>STM_RM.ioc must be renamed to match the name of the folder that contains it. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>STM_RM.ioc must be renamed to match the name of the folder that contains it.</dd></dl>
+<h1><a class="anchor" id="autotoc_md41"></a>
+Adding Documentation</h1>
+<p>The repository is set up with the Doxygen toolchain in mind. The repository also contains custom GitHub Actions and Workflows that will automatically publish Doxygen documentation to GitHub Pages on each commit to the main branch. The Doxygen configuration also adds a revision history feature, which allows users to view a snapshot of the documentation as it was when a release was published on GitHub.</p><ul>
+<li>The website will pull the tag name as the identifier for the release.</li>
+</ul>
+<p>The working directory of Doxygen is the root of the repository, not the /manual folder. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

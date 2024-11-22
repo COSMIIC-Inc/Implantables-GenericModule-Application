@@ -55,7 +55,8 @@ var NAVTREE =
       ] ],
       [ "Adding Functionality", "md_manual_2How_01To_01Use.html#autotoc_md39", [
         [ "STM_RM.ioc", "md_manual_2How_01To_01Use.html#autotoc_md40", null ]
-      ] ]
+      ] ],
+      [ "Adding Documentation", "md_manual_2How_01To_01Use.html#autotoc_md41", null ]
     ] ],
     [ "Topics", "topics.html", "topics" ],
     [ "Classes", "annotated.html", [
@@ -88,7 +89,7 @@ var NAVTREEINDEX =
 [
 "ObjDict_8c.html",
 "group__sdo.html#ga7ca56a650c5daaa24c89370f3b3d7bb0",
-"sysmem_8c.html"
+"sysdep_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

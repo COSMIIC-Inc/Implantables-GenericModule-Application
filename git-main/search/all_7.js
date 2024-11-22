@@ -1,7 +1,7 @@
 var searchData=
 [
   ['baudrate_0',['baudrate',['../structstruct__s__BOARD.html#a5316679ded23cf846c63c06ab51a4646',1,'struct_s_BOARD']]],
-  ['boards_1',['Supported Boards',['../index.html#autotoc_md43',1,'']]],
+  ['boards_1',['Supported Boards',['../index.html#autotoc_md44',1,'']]],
   ['body_2',['BODY',['../structBODY.html',1,'']]],
   ['boolean_3',['boolean',['../objdictdef_8h.html#a9201c1178e191a87a38dd59c7fc36ff6',1,'objdictdef.h']]],
   ['boot_2ec_4',['boot.c',['../boot_8c.html',1,'']]],

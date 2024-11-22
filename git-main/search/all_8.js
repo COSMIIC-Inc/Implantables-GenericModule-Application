@@ -31,7 +31,7 @@ var searchData=
   ['core_20inc_28',['Core/Inc',['../md_manual_2How_01To_01Use.html#autotoc_md22',1,'']]],
   ['core_20src_29',['Core/Src',['../md_manual_2How_01To_01Use.html#autotoc_md21',1,'']]],
   ['core_20src_20system_5fstm32l4xx_20c_30',['Core/Src/system_stm32l4xx.c',['../md_manual_2How_01To_01Use.html#autotoc_md28',1,'']]],
-  ['cosmiic_31',['Welcome to COSMIIC!',['../index.html#autotoc_md41',1,'']]],
+  ['cosmiic_31',['Welcome to COSMIIC!',['../index.html#autotoc_md42',1,'']]],
   ['count_32',['count',['../structstruct__s__transfer.html#a42a6d8e63916bf2b2d1649995f8f0e11',1,'struct_s_transfer']]],
   ['createreceivetask_33',['CreateReceiveTask',['../timer__driver_8h.html#a61060e46083c81fc7588b6c24ea4b6a0',1,'timer_driver.h']]],
   ['creating_20variables_34',['Creating Variables',['../md_manual_2How_01To_01Use.html#autotoc_md33',1,'']]]
