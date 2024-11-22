@@ -1,9 +1,0 @@
-<map id="updateAppTask" name="updateAppTask">
-<area shape="rect" id="Node000001" title="Main application loop called from main.c." alt="" coords="5,31,127,56"/>
-<area shape="rect" id="Node000002" href="$group__application.html#ga176d6f2ce88ec1bba75c6f110b210241" title="This task is run on the background thread to update parameters." alt="" coords="175,31,272,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,41,161,41,161,46,127,46"/>
-<area shape="rect" id="Node000003" href="$timer__stm_8c.html#a2bf3fad1374f6ea3a78473e116a1f486" title="Checks if a timer has timed out." alt="" coords="327,5,424,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="272,33,313,26,313,31,273,38"/>
-<area shape="rect" id="Node000004" href="$timer__stm_8c.html#a8875d1ab378b46e603991c9c22a44c92" title="Resets a timed out timer." alt="" coords="320,55,431,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="273,48,307,54,306,59,272,54"/>
-</map>

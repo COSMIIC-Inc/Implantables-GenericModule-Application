@@ -1,5 +1,0 @@
-<map id="processPDO" name="processPDO">
-<area shape="rect" id="Node000001" title="Compute a PDO frame reception bus_id is hardware dependant." alt="" coords="156,5,256,31"/>
-<area shape="rect" id="Node000002" href="$states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,5,108,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,21,108,21,108,15,142,15"/>
-</map>

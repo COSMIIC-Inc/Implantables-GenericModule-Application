@@ -1,5 +1,0 @@
-<map id="initAccelerometer" name="initAccelerometer">
-<area shape="rect" id="Node000001" title="Initializes Accelerometer." alt="" coords="5,5,144,31"/>
-<area shape="rect" id="Node000002" href="$acceltemp_8c.html#a4ab1666c7103298b93c42db93ae6d72d" title="Changes functional mode of ISM330IS accelerometer." alt="" coords="192,5,323,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="144,15,178,15,178,21,144,21"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="updateDiagnostics" name="updateDiagnostics">
-<area shape="rect" id="Node000001" title="If disgnostics is enabled, update their entries in the OD." alt="" coords="5,31,148,56"/>
-<area shape="rect" id="Node000002" href="$timer__stm_8c.html#a2bf3fad1374f6ea3a78473e116a1f486" title="Checks if a timer has timed out." alt="" coords="203,5,300,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,30,189,24,190,30,149,36"/>
-<area shape="rect" id="Node000003" href="$timer__stm_8c.html#a8875d1ab378b46e603991c9c22a44c92" title="Resets a timed out timer." alt="" coords="196,55,307,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="149,51,183,55,182,61,148,56"/>
-</map>
