@@ -1,0 +1,25 @@
+<map id="OnHeartbeatProducerUpdate" name="OnHeartbeatProducerUpdate">
+<area shape="rect" id="Node000001" title="This is called when Index 0x1017 is updated." alt="" coords="5,104,215,129"/>
+<area shape="rect" id="Node000002" href="$group__heartbeat.html#ga8896f6846e4d020390f6953f3d98aa21" title="Start heartbeat consumer and producer with respect to 0x1016 and 0x1017 object dictionary entries." alt="" coords="267,104,373,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,123,253,122,253,128,215,128"/>
+<area shape="rect" id="Node000011" href="$group__heartbeat.html#ga1b73047269c2a02065e12af18c6053c7" title="Stop heartbeat consumer and producer." alt="" coords="263,179,377,204"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="148,127,272,172,270,177,146,132"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="266,111,229,110,229,105,266,106"/>
+<area shape="rect" id="Node000003" href="$lifegrd_8c.html#ae3cd4656f5b2a37d4b8d364293538198" title=" " alt="" coords="436,104,623,129"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="373,114,422,114,422,119,373,119"/>
+<area shape="rect" id="Node000004" href="$group__heartbeat.html#ga626b7d9e527a898682d9122f91454de9" title="the Consumer Timer Callback. Heartbeat has been modified to include module Serial Number" alt="" coords="440,153,619,179"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="374,127,426,139,460,148,459,153,425,145,373,132"/>
+<area shape="rect" id="Node000006" href="$group__od.html#ga514e7b9c13835a86446b1cd38fa34049" title="&lt;BRIEF&gt;" alt="" coords="425,5,633,31"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="334,101,373,70,424,40,443,32,445,37,427,44,376,75,337,106"/>
+<area shape="rect" id="Node000008" href="$group__timer.html#ga11c2616d78f06ed9144ef662f757b128" title="Set an alarm to execute a callback function when expired." alt="" coords="488,55,571,80"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="373,101,425,89,474,77,475,82,426,94,374,107"/>
+<area shape="rect" id="Node000005" href="$group__timer.html#ga991b3cfaac2f201b14d5530f75985c21" title="Delete an alarm before expiring." alt="" coords="703,179,786,204"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="619,174,690,182,689,188,619,179"/>
+<area shape="rect" id="Node000007" href="$objacces_8c.html#a1aab3350691d161ef0fbc269cbe47322" title="Scan the index of object dictionary. Used only by setODentry and getODentry." alt="" coords="691,5,799,31"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="634,15,677,15,677,21,634,21"/>
+<area shape="rect" id="Node000009" href="$timer__stm_8c.html#a4dccc204d52176bd547ab34d6858f5ba" title="Return the elapsed time to tell the Stack how much time is spent since last call." alt="" coords="681,104,808,129"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="571,74,676,98,675,103,570,79"/>
+<area shape="rect" id="Node000010" href="$timer__stm_8c.html#ab8d05dee70f04b5c5190ab00e84da106" title="Set the timer peripheral for the next interrupt." alt="" coords="705,55,785,80"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="571,65,691,65,691,70,571,70"/>
+<area shape="poly" id="edge12_Node000011_Node000005" title=" " alt="" coords="377,189,689,189,689,194,377,194"/>
+</map>

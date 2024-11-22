@@ -1,0 +1,9 @@
+<map id="SaveValues" name="SaveValues">
+<area shape="rect" id="Node000001" title="Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the O..." alt="" coords="5,55,103,80"/>
+<area shape="rect" id="Node000002" href="$group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="151,5,285,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,52,161,32,163,37,98,57"/>
+<area shape="rect" id="Node000003" href="$group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="160,55,276,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="103,65,146,65,146,70,103,70"/>
+<area shape="rect" id="Node000004" href="$group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM." alt="" coords="159,104,277,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="98,77,163,97,161,102,96,83"/>
+</map>

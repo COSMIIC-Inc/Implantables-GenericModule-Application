@@ -1,0 +1,14 @@
+<map id="_writeNetworkDict" name="_writeNetworkDict">
+<area shape="rect" id="Node000001" title="Used to send a SDO request frame to write in a distant node dictionnary." alt="" coords="5,105,148,131"/>
+<area shape="rect" id="Node000002" href="$group__sdo.html#ga58d1f9691977617601beb9e5b4123252" title="Search for an unused line in the transfers array to store a new SDO. ie a line which value of the fie..." alt="" coords="203,5,327,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,103,138,72,195,40,210,33,212,38,197,44,141,77,97,107"/>
+<area shape="rect" id="Node000003" href="$group__sdo.html#gabb0c376b048ab2c6e0524b135b62376f" title="Search for the line, in the transfers array, which contains the beginning of the reception of a fragm..." alt="" coords="196,55,335,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="124,103,203,81,205,86,126,108"/>
+<area shape="rect" id="Node000004" href="$group__sdo.html#gab9c873a15f55b29112b5527a6cc6898d" title="Initialize some fields of the structure." alt="" coords="383,131,477,156"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,120,369,136,368,142,148,126"/>
+<area shape="rect" id="Node000005" href="$group__sdo.html#ga42d33be015d4c4c83c73f1f0e588f481" title="Reset an unused line." alt="" coords="212,156,319,181"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="126,128,205,150,203,155,124,133"/>
+<area shape="rect" id="Node000006" href="$group__sdo.html#gac6b5d7d1439d537da992a96644a1ca5d" title="Transmit a SDO frame on the bus bus_id." alt="" coords="225,205,306,231"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="97,129,142,159,197,190,214,198,212,203,195,195,139,163,94,133"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="318,158,369,150,370,155,319,163"/>
+</map>

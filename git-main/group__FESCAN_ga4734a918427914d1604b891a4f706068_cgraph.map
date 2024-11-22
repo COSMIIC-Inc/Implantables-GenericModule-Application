@@ -1,0 +1,95 @@
+<map id="EnterPatientManualFunc" name="EnterPatientManualFunc">
+<area shape="rect" id="Node000001" title="Lets application process NMT_Enter_Patient_Manual." alt="" coords="5,350,184,376"/>
+<area shape="rect" id="Node000002" href="$group__statemachine.html#ga0a5004efd1dedbee82a4f21ec5c44fb5" title="Change the state of the node." alt="" coords="253,325,329,350"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,349,239,341,240,347,185,354"/>
+<area shape="rect" id="Node000038" href="$group__nmtslave.html#gab0d9fd1a3ab90abd11293fc453289ad3" title="Starts watchdog on slave." alt="" coords="232,374,351,400"/>
+<area shape="poly" id="edge55_Node000001_Node000038" title=" " alt="" coords="185,371,218,375,218,381,184,376"/>
+<area shape="rect" id="Node000003" href="$group__statemachine.html#ga915991eebf7c2ac6c929c6c9cfbd7d03" title="&lt;BRIEF&gt; switchCommunicationState" alt="" coords="399,325,600,350"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="329,335,385,335,385,340,329,340"/>
+<area shape="rect" id="Node000004" href="$group__emcy.html#gac1ae9a72b60fc7dfde81d1c70b3f3196" title="Start EMCY consumer and producer." alt="" coords="659,300,775,325"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="600,323,645,318,645,323,601,328"/>
+<area shape="rect" id="Node000008" href="$group__emcy.html#ga7b6a2abe14c9416b18bfbce1665247fb" title="Stop EMCY producer and consumer." alt="" coords="655,98,779,124"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="505,323,557,240,598,188,646,141,667,127,670,132,650,145,602,192,562,243,510,326"/>
+<area shape="rect" id="Node000009" href="$group__heartbeat.html#ga8896f6846e4d020390f6953f3d98aa21" title="Start heartbeat consumer and producer with respect to 0x1016 and 0x1017 object dictionary entries." alt="" coords="876,212,983,237"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="533,322,647,284,761,256,862,234,863,239,762,261,649,289,535,327"/>
+<area shape="rect" id="Node000012" href="$group__heartbeat.html#ga1b73047269c2a02065e12af18c6053c7" title="Stop heartbeat consumer and producer." alt="" coords="1355,60,1470,85"/>
+<area shape="poly" id="edge20_Node000003_Node000012" title=" " alt="" coords="501,324,515,276,542,208,561,172,585,138,613,108,647,83,692,60,739,41,787,27,837,16,938,5,1039,4,1135,11,1222,24,1356,53,1355,59,1221,29,1134,17,1039,9,939,10,838,21,789,32,740,46,694,65,649,88,617,112,589,142,566,175,547,210,520,277,506,325"/>
+<area shape="rect" id="Node000018" href="$group__pdo.html#ga474688163fc6e1ffe47d56143a051714" title="Initialize PDO feature." alt="" coords="894,464,965,489"/>
+<area shape="poly" id="edge21_Node000003_Node000018" title=" " alt="" coords="532,348,649,392,741,421,834,447,882,461,880,466,833,452,739,426,647,397,530,353"/>
+<area shape="rect" id="Node000025" href="$group__pdo.html#ga745aea83aebbc1ec052a98f18586cb35" title="Stop PDO feature." alt="" coords="1609,165,1687,190"/>
+<area shape="poly" id="edge34_Node000003_Node000025" title=" " alt="" coords="518,322,574,287,647,250,698,230,738,218,833,196,952,165,1005,155,1073,146,1178,141,1283,146,1455,156,1595,169,1595,175,1454,162,1283,151,1178,146,1074,151,1005,160,953,171,834,201,740,223,699,235,649,255,577,292,521,327"/>
+<area shape="rect" id="Node000026" href="$group__sdo.html#ga1f4f07eccc4890a11ccf4f632da7740b" title="Reset all SDO buffers." alt="" coords="675,508,758,533"/>
+<area shape="poly" id="edge36_Node000003_Node000026" title=" " alt="" coords="513,349,567,412,606,451,650,486,672,499,669,504,646,490,603,455,563,416,508,352"/>
+<area shape="rect" id="Node000029" href="$group__nmtslave.html#gaaced28a97b2c256320dfde3c4b36a7d5" title="Transmit the boot&#45;Up frame when the slave is moving from initialization state to pre_operational stat..." alt="" coords="648,452,785,477"/>
+<area shape="poly" id="edge39_Node000003_Node000029" title=" " alt="" coords="520,348,577,386,649,430,675,443,673,448,647,435,574,391,517,352"/>
+<area shape="rect" id="Node000030" href="$group__sync.html#ga2e0bf669f5b40dfbdda0f12a5ae3631a" title="&lt;BRIEF&gt; startSYNC" alt="" coords="673,562,760,588"/>
+<area shape="poly" id="edge40_Node000003_Node000030" title=" " alt="" coords="509,349,529,386,560,437,601,493,650,542,667,554,665,558,646,546,597,496,555,440,524,389,504,352"/>
+<area shape="rect" id="Node000032" href="$group__sync.html#ga41c47dbd59d22bf9bab6cd288cf27164" title="&lt;BRIEF&gt; stopSYNC" alt="" coords="887,413,972,438"/>
+<area shape="poly" id="edge54_Node000003_Node000032" title=" " alt="" coords="566,348,786,392,873,411,872,416,785,397,565,353"/>
+<area shape="rect" id="Node000005" href="$group__emcy.html#ga11265d2ea7926d22310f1802ae722c5b" title="This is called when Index 0x1003 is updated." alt="" coords="833,261,1025,286"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="774,299,845,286,846,291,775,304"/>
+<area shape="rect" id="Node000006" href="$group__od.html#ga514e7b9c13835a86446b1cd38fa34049" title="&lt;BRIEF&gt;" alt="" coords="1074,362,1282,388"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="775,317,1071,358,1070,363,774,323"/>
+<area shape="rect" id="Node000007" href="$objacces_8c.html#a1aab3350691d161ef0fbc269cbe47322" title="Scan the index of object dictionary. Used only by setODentry and getODentry." alt="" coords="1359,438,1467,464"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1219,385,1361,431,1359,436,1217,390"/>
+<area shape="poly" id="edge16_Node000009_Node000006" title=" " alt="" coords="984,227,1006,234,1027,246,1039,258,1046,270,1052,295,1058,318,1065,330,1075,341,1097,355,1094,359,1072,345,1060,333,1053,320,1047,296,1041,272,1034,261,1024,250,1004,239,982,232"/>
+<area shape="rect" id="Node000010" href="$lifegrd_8c.html#ae3cd4656f5b2a37d4b8d364293538198" title=" " alt="" coords="1085,210,1271,236"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="983,221,1071,221,1071,226,983,227"/>
+<area shape="rect" id="Node000011" href="$group__heartbeat.html#ga098c81fb9326fb2c7b43e88a55ce1368" title="This is called when Index 0x1017 is updated." alt="" coords="1073,161,1283,186"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="982,218,1131,187,1132,193,983,224"/>
+<area shape="rect" id="Node000014" href="$group__heartbeat.html#ga626b7d9e527a898682d9122f91454de9" title="the Consumer Timer Callback. Heartbeat has been modified to include module Serial Number" alt="" coords="1559,268,1737,293"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="983,231,1074,244,1328,265,1545,275,1545,280,1328,270,1073,250,982,236"/>
+<area shape="rect" id="Node000015" href="$group__timer.html#ga11c2616d78f06ed9144ef662f757b128" title="Set an alarm to execute a callback function when expired." alt="" coords="1844,580,1927,605"/>
+<area shape="poly" id="edge17_Node000009_Node000015" title=" " alt="" coords="983,233,1026,246,1074,267,1192,313,1285,346,1378,378,1496,423,1692,505,1844,571,1842,576,1689,510,1494,428,1376,383,1283,351,1190,318,1072,272,1024,251,982,238"/>
+<area shape="poly" id="edge11_Node000011_Node000009" title=" " alt="" coords="1074,189,976,210,975,205,1073,183"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="1208,158,1369,88,1371,93,1210,163"/>
+<area shape="rect" id="Node000013" href="$group__timer.html#ga991b3cfaac2f201b14d5530f75985c21" title="Delete an alarm before expiring." alt="" coords="1844,297,1927,322"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="1471,72,1532,79,1606,92,1683,115,1720,131,1755,150,1793,180,1826,216,1873,283,1868,286,1822,219,1790,184,1752,154,1717,136,1681,120,1605,97,1532,84,1470,77"/>
+<area shape="poly" id="edge15_Node000014_Node000013" title=" " alt="" coords="1738,289,1830,300,1830,305,1737,294"/>
+<area shape="rect" id="Node000016" href="$timer__stm_8c.html#a4dccc204d52176bd547ab34d6858f5ba" title="Return the elapsed time to tell the Stack how much time is spent since last call." alt="" coords="2017,530,2144,556"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="1926,579,2016,556,2017,562,1928,584"/>
+<area shape="rect" id="Node000017" href="$timer__stm_8c.html#ab8d05dee70f04b5c5190ab00e84da106" title="Set the timer peripheral for the next interrupt." alt="" coords="2041,580,2121,605"/>
+<area shape="poly" id="edge19_Node000015_Node000017" title=" " alt="" coords="1927,590,2027,590,2027,595,1927,595"/>
+<area shape="poly" id="edge22_Node000018_Node000007" title=" " alt="" coords="965,472,1345,452,1345,457,965,477"/>
+<area shape="rect" id="Node000019" href="$group__pdo.html#ga3e9718d5f111be6a018a94c681f7ba07" title="&lt;BRIEF&gt; TPDO_Communication_Parameter_Callback" alt="" coords="1094,514,1262,554"/>
+<area shape="poly" id="edge23_Node000018_Node000019" title=" " alt="" coords="965,482,1081,509,1080,514,964,487"/>
+<area shape="poly" id="edge24_Node000019_Node000013" title=" " alt="" coords="1262,521,1373,502,1494,472,1596,437,1695,397,1846,326,1848,331,1697,402,1598,442,1495,477,1374,507,1263,526"/>
+<area shape="rect" id="Node000020" href="$group__pdo.html#gae983f9075bd04d0afff7391891a0d7c3" title="Set timer for PDO event." alt="" coords="1331,654,1495,680"/>
+<area shape="poly" id="edge25_Node000019_Node000020" title=" " alt="" coords="1257,551,1284,563,1343,602,1390,643,1387,647,1340,607,1281,568,1255,556"/>
+<area shape="rect" id="Node000021" href="$group__pdo.html#ga95c3686cda4e9e6f7c847d2d0bb88fe8" title="Function iterates on all TPDO and look TPDO transmit type and content change before sending it." alt="" coords="1585,654,1711,680"/>
+<area shape="poly" id="edge26_Node000020_Node000021" title=" " alt="" coords="1495,673,1572,673,1572,678,1495,678"/>
+<area shape="poly" id="edge29_Node000021_Node000013" title=" " alt="" coords="1659,652,1701,602,1751,535,1820,423,1869,333,1874,336,1824,426,1756,538,1705,605,1663,656"/>
+<area shape="poly" id="edge33_Node000021_Node000015" title=" " alt="" coords="1692,652,1752,632,1800,614,1830,604,1832,609,1802,619,1754,637,1694,657"/>
+<area shape="poly" id="edge30_Node000021_Node000020" title=" " alt="" coords="1585,661,1508,661,1508,655,1585,656"/>
+<area shape="rect" id="Node000022" href="$group__pdo.html#ga889902163641f6fc8039550cb11ec320" title="Copy all the data to transmit in process_var Prepare the PDO defined at index to be sent *pwCobId : r..." alt="" coords="1844,629,1927,654"/>
+<area shape="poly" id="edge27_Node000021_Node000022" title=" " alt="" coords="1711,658,1830,645,1831,650,1711,663"/>
+<area shape="rect" id="Node000024" href="$group__pdo.html#ga6eac02502a8822815b8324fdb9cbb6dd" title="Inhibit timer for PDO event." alt="" coords="1801,678,1969,704"/>
+<area shape="poly" id="edge31_Node000021_Node000024" title=" " alt="" coords="1700,677,1788,687,1787,693,1699,682"/>
+<area shape="rect" id="Node000023" href="$group__pdo.html#gae468510c9f77f502207d961d26389918" title="copy bit per bit in little endian" alt="" coords="2041,629,2121,654"/>
+<area shape="poly" id="edge28_Node000022_Node000023" title=" " alt="" coords="1927,639,2027,639,2027,644,1927,644"/>
+<area shape="poly" id="edge32_Node000024_Node000021" title=" " alt="" coords="1834,681,1724,669,1725,663,1834,676"/>
+<area shape="poly" id="edge35_Node000025_Node000013" title=" " alt="" coords="1674,188,1851,288,1848,292,1671,193"/>
+<area shape="rect" id="Node000027" href="$group__sdo.html#ga42d33be015d4c4c83c73f1f0e588f481" title="Reset an unused line." alt="" coords="876,513,983,538"/>
+<area shape="poly" id="edge37_Node000026_Node000027" title=" " alt="" coords="759,519,862,521,862,527,758,524"/>
+<area shape="rect" id="Node000028" href="$group__sdo.html#gab9c873a15f55b29112b5527a6cc6898d" title="Initialize some fields of the structure." alt="" coords="1131,578,1225,604"/>
+<area shape="poly" id="edge38_Node000027_Node000028" title=" " alt="" coords="984,535,1026,547,1074,563,1117,574,1116,580,1073,568,1025,552,982,541"/>
+<area shape="poly" id="edge43_Node000030_Node000006" title=" " alt="" coords="758,560,783,542,796,524,802,506,804,469,807,432,816,415,832,398,848,389,871,381,927,372,994,368,1060,367,1060,373,994,373,928,377,872,387,851,394,835,402,820,418,812,434,809,469,807,507,801,526,787,546,762,564"/>
+<area shape="poly" id="edge44_Node000030_Node000015" title=" " alt="" coords="761,583,834,596,953,608,1073,612,1294,614,1510,610,1830,593,1831,599,1510,615,1294,620,1073,618,953,614,833,602,760,588"/>
+<area shape="rect" id="Node000031" href="$group__sync.html#ga82595787f641ab85980d83522f1158b0" title="This is called when Index 0x1005 is updated." alt="" coords="842,562,1017,588"/>
+<area shape="poly" id="edge41_Node000030_Node000031" title=" " alt="" coords="761,580,828,581,828,587,760,585"/>
+<area shape="poly" id="edge45_Node000030_Node000032" title=" " alt="" coords="756,560,783,542,800,519,806,496,813,472,832,449,851,437,872,430,874,435,853,442,835,453,818,475,811,497,804,521,787,546,759,564"/>
+<area shape="rect" id="Node000033" href="$group__sync.html#gabbcce7b549414c7bc1aa72fa66258b45" title="&lt;BRIEF&gt; SyncAlarm" alt="" coords="883,692,975,717"/>
+<area shape="poly" id="edge48_Node000030_Node000033" title=" " alt="" coords="735,586,779,620,835,658,885,684,883,688,832,663,776,624,732,590"/>
+<area shape="poly" id="edge42_Node000031_Node000030" title=" " alt="" coords="842,569,774,569,774,564,842,563"/>
+<area shape="poly" id="edge47_Node000032_Node000006" title=" " alt="" coords="972,414,1101,388,1102,393,973,420"/>
+<area shape="poly" id="edge46_Node000032_Node000013" title=" " alt="" coords="972,421,1110,412,1282,396,1593,354,1830,316,1831,321,1594,360,1283,402,1111,417,973,426"/>
+<area shape="rect" id="Node000034" href="$group__sync.html#gadee64da8e8e5ff05f1ff2be3c7fe2e5f" title="Transmit a SYNC message and trigger sync TPDOs." alt="" coords="1134,704,1222,729"/>
+<area shape="poly" id="edge49_Node000033_Node000034" title=" " alt="" coords="976,704,1120,711,1120,716,976,709"/>
+<area shape="rect" id="Node000035" href="$group__sync.html#ga7f4f561c92fb8be03cd7227190e8d22f" title="This function is called when the node is receiving a SYNC message (cob&#45;id = 0x80)." alt="" coords="1359,704,1466,729"/>
+<area shape="poly" id="edge50_Node000034_Node000035" title=" " alt="" coords="1222,714,1346,714,1346,719,1222,719"/>
+<area shape="rect" id="Node000037" href="$group__sync.html#ga097cddb0103b1a8f56ecf976b03936a3" title="Transmit a SYNC message on CAN bus." alt="" coords="1339,753,1486,778"/>
+<area shape="poly" id="edge53_Node000034_Node000037" title=" " alt="" coords="1223,723,1339,747,1338,753,1222,728"/>
+<area shape="poly" id="edge51_Node000035_Node000021" title=" " alt="" coords="1466,703,1573,680,1574,685,1467,708"/>
+<area shape="rect" id="Node000036" href="$group__application.html#ga029280b253d1107ff9e68f7fa86d7ab5" title="Lets application process SYNC message if necessary." alt="" coords="1543,704,1753,729"/>
+<area shape="poly" id="edge52_Node000035_Node000036" title=" " alt="" coords="1466,714,1529,714,1529,719,1466,719"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="runAppTask" name="runAppTask">
+<area shape="rect" id="Node000001" title="This task is run on the background thread to update parameters." alt="" coords="277,5,375,31"/>
+<area shape="rect" id="Node000002" href="$group__application.html#gafdedae5c2185b828122616a752251cd1" title="Main application loop called from main.c." alt="" coords="108,5,229,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="263,21,230,21,230,15,263,15"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="The application entry point." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

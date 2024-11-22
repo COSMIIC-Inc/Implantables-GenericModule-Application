@@ -1,0 +1,5 @@
+<map id="EMCY_setError" name="EMCY_setError">
+<area shape="rect" id="Node000001" title="Sets a new error with code errCode. Also sets corresponding bits in Error register (1001h)" alt="" coords="5,5,123,31"/>
+<area shape="rect" id="Node000002" href="$group__emcy.html#ga42fc0c1566cf370bd15dcbd3caf8570c" title="&lt;BRIEF&gt; sendEMCY" alt="" coords="171,5,261,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,15,157,15,157,21,123,21"/>
+</map>
