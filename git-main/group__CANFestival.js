@@ -9,5 +9,7 @@ var group__CANFestival =
     [ "SDO", "group__sdo.html", "group__sdo" ],
     [ "State Machine", "group__statemachine.html", "group__statemachine" ],
     [ "SYNC", "group__sync.html", "group__sync" ],
-    [ "Timer", "group__timer.html", "group__timer" ]
+    [ "Timer", "group__timer.html", "group__timer" ],
+    [ "can_stm.c", "can__stm_8c.html", null ],
+    [ "timer_stm.c", "timer__stm_8c.html", null ]
 ];

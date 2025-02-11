@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>NNP STM Generic Remote Module: Core/app/module/app.c File Reference</title>
+<title>NNP STM Generic Remote Module: Core/app/module/app.h File Reference</title>
 <link rel="icon" href="cosmiic-icon.png" type="image/x-icon" />
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -101,7 +101,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('app_8c.html',''); initResizable(true); });
+$(function(){initNavTree('app_8h.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -128,31 +128,25 @@ $(function(){initNavTree('app_8c.html',''); initResizable(true); });
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">app.c File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">app.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Module Applicaiton Code.  
+<p>Header file for <a class="el" href="app_8c.html" title="Module Applicaiton Code.">app.c</a>.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="ObjDict_8h_source.html">ObjDict.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="states_8h_source.html">states.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="app_8h_source.html">app.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="main_8h_source.html">main.h</a>&quot;</code><br />
-<code>#include &quot;can_stm.h&quot;</code><br />
-</div>
-<p><a href="app_8c_source.html">Go to the source code of this file.</a></p>
+
+<p><a href="app_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga42c42e16b97b7f73d30718595c902889" id="r_ga42c42e16b97b7f73d30718595c902889"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__application.html#ga42c42e16b97b7f73d30718595c902889">initAppTask</a> (void)</td></tr>
 <tr class="memdesc:ga42c42e16b97b7f73d30718595c902889"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function called at the initialization of program.  <br /></td></tr>
 <tr class="separator:ga42c42e16b97b7f73d30718595c902889"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafdedae5c2185b828122616a752251cd1" id="r_gafdedae5c2185b828122616a752251cd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__application.html#gafdedae5c2185b828122616a752251cd1">updateAppTask</a> ()</td></tr>
+<tr class="memitem:gafdedae5c2185b828122616a752251cd1" id="r_gafdedae5c2185b828122616a752251cd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__application.html#gafdedae5c2185b828122616a752251cd1">updateAppTask</a> (void)</td></tr>
 <tr class="memdesc:gafdedae5c2185b828122616a752251cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main application loop called from <a class="el" href="main_8c.html" title=": Main program body">main.c</a>.  <br /></td></tr>
 <tr class="separator:gafdedae5c2185b828122616a752251cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga176d6f2ce88ec1bba75c6f110b210241" id="r_ga176d6f2ce88ec1bba75c6f110b210241"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__application.html#ga176d6f2ce88ec1bba75c6f110b210241">runAppTask</a> (<a class="el" href="applicfg_8h.html#a889a782714194ae2f780002d25d6e0be">UNS32</a> param)</td></tr>
+<tr class="memitem:ga176d6f2ce88ec1bba75c6f110b210241" id="r_ga176d6f2ce88ec1bba75c6f110b210241"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__application.html#ga176d6f2ce88ec1bba75c6f110b210241">runAppTask</a> (<a class="el" href="applicfg_8h.html#a889a782714194ae2f780002d25d6e0be">UNS32</a>)</td></tr>
 <tr class="memdesc:ga176d6f2ce88ec1bba75c6f110b210241"><td class="mdescLeft">&#160;</td><td class="mdescRight">This task is run on the background thread to update parameters.  <br /></td></tr>
 <tr class="separator:ga176d6f2ce88ec1bba75c6f110b210241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga029280b253d1107ff9e68f7fa86d7ab5" id="r_ga029280b253d1107ff9e68f7fa86d7ab5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__application.html#ga029280b253d1107ff9e68f7fa86d7ab5">processSYNCMessageForApp</a> (<a class="el" href="structMessage.html">Message</a> *m)</td></tr>
@@ -194,41 +188,19 @@ Functions</h2></td></tr>
 <tr class="memitem:ga4a2018e300c0d24f8fc25f3eea00f4c5" id="r_ga4a2018e300c0d24f8fc25f3eea00f4c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__FESCAN.html#ga4a2018e300c0d24f8fc25f3eea00f4c5">EnterRecordXFunc</a> (<a class="el" href="structstruct__CO__Data.html">CO_Data</a> *d, <a class="el" href="structMessage.html">Message</a> *m)</td></tr>
 <tr class="memdesc:ga4a2018e300c0d24f8fc25f3eea00f4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lets application process NMT_Enter_Record_X.  <br /></td></tr>
 <tr class="separator:ga4a2018e300c0d24f8fc25f3eea00f4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aea284efa8a9784b0bfd7b8c4a7d301b3" id="r_aea284efa8a9784b0bfd7b8c4a7d301b3"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea284efa8a9784b0bfd7b8c4a7d301b3">f_syncPulse</a> = 0</td></tr>
-<tr class="separator:aea284efa8a9784b0bfd7b8c4a7d301b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Module Applicaiton Code. </p>
+<div class="textblock"><p>Header file for <a class="el" href="app_8c.html" title="Module Applicaiton Code.">app.c</a>. </p>
 <p>Created on: </p><dl class="section date"><dt>Date</dt><dd>Oct 14, 2024 </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Jerry Ukwela (<a href="#" onclick="location.href='mai'+'lto:'+'jeu'+'6@'+'cas'+'e.'+'edu'; return false;">jeu6@<span class="obfuscator">.nosp@m.</span>case<span class="obfuscator">.nosp@m.</span>.edu</a>) </dd></dl>
 
-<p class="definition">Definition in file <a class="el" href="app_8c_source.html">app.c</a>.</p>
-</div><h2 class="groupheader">Variable Documentation</h2>
-<a id="aea284efa8a9784b0bfd7b8c4a7d301b3" name="aea284efa8a9784b0bfd7b8c4a7d301b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea284efa8a9784b0bfd7b8c4a7d301b3">&#9670;&#160;</a></span>f_syncPulse</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> f_syncPulse = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="app_8c_source.html#l00024">24</a> of file <a class="el" href="app_8c_source.html">app.c</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p class="definition">Definition in file <a class="el" href="app_8h_source.html">app.h</a>.</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a class="el" href="dir_2555704044e05e1639576a5b482205c2.html">app</a></li><li class="navelem"><a class="el" href="dir_56fd2b289074d14740adc86de2b6cdd1.html">module</a></li><li class="navelem"><a class="el" href="app_8c.html">app.c</a></li>
+    <li class="navelem"><a class="el" href="dir_c6310732a22f63c0c2fc5595561e68f1.html">Core</a></li><li class="navelem"><a class="el" href="dir_2555704044e05e1639576a5b482205c2.html">app</a></li><li class="navelem"><a class="el" href="dir_56fd2b289074d14740adc86de2b6cdd1.html">module</a></li><li class="navelem"><a class="el" href="app_8h.html">app.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>
