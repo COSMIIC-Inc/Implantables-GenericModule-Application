@@ -1,5 +1,14 @@
 var NAVTREEINDEX2 =
 {
+"structtd__indextable.html":[3,0,12],
+"structtd__subindex.html":[3,0,13],
+"sync_8c.html":[4,0,0,2,14],
+"sync_8c_source.html":[4,0,0,2,14],
+"sync_8h.html":[4,0,0,1,19],
+"sync_8h_source.html":[4,0,0,1,19],
+"syscalls_8c.html":[4,0,0,2,15],
+"syscalls_8c_source.html":[4,0,0,2,15],
+"sysdep_8h.html":[4,0,0,1,20],
 "sysdep_8h_source.html":[4,0,0,1,20],
 "sysmem_8c.html":[4,0,0,2,16],
 "sysmem_8c.html#a68125648bcce70b6bb3aa0be50e99700":[4,0,0,2,16,0],

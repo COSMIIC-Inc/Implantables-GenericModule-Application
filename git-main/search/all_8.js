@@ -14,7 +14,7 @@ var searchData=
   ['candispatch_11',['canDispatch',['../states_8h.html#a3f8975650604cc23582f19a43fd4e518',1,'canDispatch(CO_Data *d, Message *m):&#160;states.c'],['../states_8c.html#a3f8975650604cc23582f19a43fd4e518',1,'canDispatch(CO_Data *d, Message *m):&#160;states.c']]],
   ['canfestival_12',['CANFestival',['../group__CANFestival.html',1,'']]],
   ['cansend_13',['canSend',['../group__FESCAN.html#gabc71f88512f5348ad0372e4c7bc96785',1,'canSend(CAN_HandleTypeDef *hcan, Message *m):&#160;can_stm.c'],['../group__FESCAN.html#gabc71f88512f5348ad0372e4c7bc96785',1,'canSend(CAN_HandleTypeDef *hcan, Message *m):&#160;can_stm.c'],['../group__FESCAN.html#gabc71f88512f5348ad0372e4c7bc96785',1,'canSend(CAN_HandleTypeDef *hcan, Message *m):&#160;can_stm.c']]],
-  ['changemodeimu_14',['changeModeIMU',['../acceltemp_8c.html#a4ab1666c7103298b93c42db93ae6d72d',1,'acceltemp.c']]],
+  ['changemodeimu_14',['changeModeIMU',['../acceltemp_8c.html#a4ab1666c7103298b93c42db93ae6d72d',1,'changeModeIMU(UNS8 mode):&#160;acceltemp.c'],['../acceltemp_8h.html#a4ab1666c7103298b93c42db93ae6d72d',1,'changeModeIMU(UNS8 mode):&#160;acceltemp.c']]],
   ['checkrestoreflag_15',['CheckRestoreFlag',['../group__EEPROM.html#ga244d1d013144415d1f35f2fdb20e6732',1,'CheckRestoreFlag(void):&#160;eedata.c'],['../group__EEPROM.html#ga244d1d013144415d1f35f2fdb20e6732',1,'CheckRestoreFlag(void):&#160;eedata.c']]],
   ['clock_16',['SDIO and RNG clock                     |',['../system__stm32l4xx_8c.html#autotoc_md18',1,'']]],
   ['clock_20as_20follows_3a_17',['This file configures the system clock as follows:',['../system__stm32l4xx_8c.html#autotoc_md0',1,'']]],
