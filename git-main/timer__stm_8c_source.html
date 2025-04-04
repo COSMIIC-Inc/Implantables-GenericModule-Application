@@ -195,14 +195,12 @@ $(function(){initNavTree('timer__stm_8c_source.html',''); initResizable(true); }
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">void</span> HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>{</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordflow">if</span> (htim-&gt;Instance == TIM2) {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        HAL_IncTick();</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        last_time_set = 0;</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        elapsed_time = 0;</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        TIM2-&gt;SR = (uint16_t)~TIM_SR_UIF;  <span class="comment">//Clear pending interrupt</span></div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <a class="code hl_function" href="group__timer.html#ga9e5fb60f13faab8705899c5806754864">TimeDispatch</a>();</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    }</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>}</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        last_time_set = 0;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        elapsed_time = 0;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        TIM2-&gt;SR = (uint16_t)~TIM_SR_UIF;  <span class="comment">//Clear pending interrupt</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <a class="code hl_function" href="group__timer.html#ga9e5fb60f13faab8705899c5806754864">TimeDispatch</a>();</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    }</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
 <div class="ttc" id="aapplicfg_8h_html_a539234687760592d01a8b0d3357bc00e"><div class="ttname"><a href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a></div><div class="ttdeci">#define UNS8</div><div class="ttdoc">Unsigned int8 representation in CANFest.</div><div class="ttdef"><b>Definition</b> <a href="applicfg_8h_source.html#l00025">applicfg.h:25</a></div></div>
 <div class="ttc" id="aapplicfg_8h_html_a889a782714194ae2f780002d25d6e0be"><div class="ttname"><a href="applicfg_8h.html#a889a782714194ae2f780002d25d6e0be">UNS32</a></div><div class="ttdeci">#define UNS32</div><div class="ttdoc">Unsigned int32 representation in CANFest.</div><div class="ttdef"><b>Definition</b> <a href="applicfg_8h_source.html#l00027">applicfg.h:27</a></div></div>
 <div class="ttc" id="agroup__timer_html_ga9e5fb60f13faab8705899c5806754864"><div class="ttname"><a href="group__timer.html#ga9e5fb60f13faab8705899c5806754864">TimeDispatch</a></div><div class="ttdeci">void TimeDispatch(void)</div><div class="ttdoc">TimeDispatch is called on each timer expiration -—.</div><div class="ttdef"><b>Definition</b> <a href="timer_8c_source.html#l00102">timer.c:102</a></div></div>

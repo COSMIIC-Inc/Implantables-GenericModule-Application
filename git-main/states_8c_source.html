@@ -283,7 +283,7 @@ $(function(){initNavTree('states_8c_source.html',''); initResizable(true); });
 <div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span> </div>
 <div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            <span class="keywordflow">case</span> Waiting:</div>
 <div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            {</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>                <a class="code hl_struct" href="structs__state__communication.html">s_state_communication</a> newCommunicationState = {0, 1, 1, 1, 1, 1, 0};</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>                <a class="code hl_struct" href="structs__state__communication.html">s_state_communication</a> newCommunicationState = {0, 1, 1, 0, 1, 0, 0};</div>
 <div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>                d-&gt;nodeState = Waiting;</div>
 <div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>                <a class="code hl_function" href="group__statemachine.html#ga915991eebf7c2ac6c929c6c9cfbd7d03">switchCommunicationState</a>(d, &amp;newCommunicationState);</div>
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>                (*d-&gt;waiting)(d);</div>
@@ -292,7 +292,7 @@ $(function(){initNavTree('states_8c_source.html',''); initResizable(true); });
 <div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span> </div>
 <div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            <span class="keywordflow">case</span> Stopped:</div>
 <div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>            {</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>                <a class="code hl_struct" href="structs__state__communication.html">s_state_communication</a> newCommunicationState = {0, 1, 1, 1, 1, 1, 0};</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>                <a class="code hl_struct" href="structs__state__communication.html">s_state_communication</a> newCommunicationState = {0, 1, 1, 0, 1, 0, 0};</div>
 <div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>                d-&gt;nodeState = Stopped;</div>
 <div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>                <a class="code hl_function" href="group__statemachine.html#ga915991eebf7c2ac6c929c6c9cfbd7d03">switchCommunicationState</a>(d, &amp;newCommunicationState);</div>
 <div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>                (*d-&gt;stopped)(d);</div>
