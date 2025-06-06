@@ -187,7 +187,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaee536954a28801f7d7a114d958716dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the EEPROM into ram for modification by <a class="el" href="group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM.">EEPROM_write()</a>  <br /></td></tr>
 <tr class="separator:gaee536954a28801f7d7a114d958716dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga975cce9100cc358d298afa9340b28f0a" id="r_ga975cce9100cc358d298afa9340b28f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a">EEPROM_commit</a> ()</td></tr>
-<tr class="memdesc:ga975cce9100cc358d298afa9340b28f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions.  <br /></td></tr>
+<tr class="memdesc:ga975cce9100cc358d298afa9340b28f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commits edits to EEPROM from ram to flash.  <br /></td></tr>
 <tr class="separator:ga975cce9100cc358d298afa9340b28f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6b7d41d7322da9af61c598d80af92958" id="r_ga6b7d41d7322da9af61c598d80af92958"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#ga6b7d41d7322da9af61c598d80af92958">EEPROM_read</a> (<a class="el" href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a> address, <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> *data, <a class="el" href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a> length)</td></tr>
 <tr class="memdesc:ga6b7d41d7322da9af61c598d80af92958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads bytes from a specified location in EEPROM.  <br /></td></tr>
@@ -218,7 +218,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00015">15</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00227">EraseEprom()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>.</p>
 
 </div>
 </div>
@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00016">16</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00262">EEPROM_commit()</a>, and <a class="el" href="eedata_8c_source.html#l00247">EEPROM_open()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00262">EEPROM_commit()</a>, and <a class="el" href="eedata_8c_source.html#l00248">EEPROM_open()</a>.</p>
 
 </div>
 </div>
@@ -274,7 +274,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00017">17</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00262">EEPROM_commit()</a>, <a class="el" href="eedata_8c_source.html#l00247">EEPROM_open()</a>, and <a class="el" href="eedata_8c_source.html#l00341">EEPROM_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00262">EEPROM_commit()</a>, <a class="el" href="eedata_8c_source.html#l00248">EEPROM_open()</a>, and <a class="el" href="eedata_8c_source.html#l00339">EEPROM_read()</a>.</p>
 
 </div>
 </div>
@@ -326,7 +326,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00013">13</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00617">ReadEEProm()</a>, <a class="el" href="eedata_8c_source.html#l00116">RestoreValues()</a>, <a class="el" href="eedata_8c_source.html#l00050">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00617">ReadEEProm()</a>, <a class="el" href="eedata_8c_source.html#l00117">RestoreValues()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 <map id="EEPROM_commit" name="EEPROM_commit">
-<area shape="rect" id="Node000001" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="576,80,711,105"/>
+<area shape="rect" id="Node000001" title="Commits edits to EEPROM from ram to flash." alt="" coords="576,80,711,105"/>
 <area shape="rect" id="Node000002" href="$group__EEPROM.html#ga0804a0b415fdebbb6f4bcc348322c2a8" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="407,5,507,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="602,77,527,44,496,33,498,28,529,40,604,72"/>
 <area shape="rect" id="Node000005" href="$group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset" alt="" coords="387,55,528,80"/>

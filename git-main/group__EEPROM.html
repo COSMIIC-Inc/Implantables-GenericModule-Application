@@ -160,10 +160,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaee536954a28801f7d7a114d958716dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the EEPROM into ram for modification by <a class="el" href="#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM.">EEPROM_write()</a>  <br /></td></tr>
 <tr class="separator:gaee536954a28801f7d7a114d958716dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga975cce9100cc358d298afa9340b28f0a" id="r_ga975cce9100cc358d298afa9340b28f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga975cce9100cc358d298afa9340b28f0a">EEPROM_commit</a> ()</td></tr>
-<tr class="memdesc:ga975cce9100cc358d298afa9340b28f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions.  <br /></td></tr>
+<tr class="memdesc:ga975cce9100cc358d298afa9340b28f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commits edits to EEPROM from ram to flash.  <br /></td></tr>
 <tr class="separator:ga975cce9100cc358d298afa9340b28f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae9480474d4f2fe514f287e3b3be186f5" id="r_gae9480474d4f2fe514f287e3b3be186f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9480474d4f2fe514f287e3b3be186f5">EEPROM_discard</a> ()</td></tr>
-<tr class="memdesc:gae9480474d4f2fe514f287e3b3be186f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discards current edits to EEPROM without committing to flash, frees up ram and closes handle.  <br /></td></tr>
+<tr class="memdesc:gae9480474d4f2fe514f287e3b3be186f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discards current edits to EEPROM without committing to flash.  <br /></td></tr>
 <tr class="separator:gae9480474d4f2fe514f287e3b3be186f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a7dfa75b2b1d39a6389efa2325c0607" id="r_ga3a7dfa75b2b1d39a6389efa2325c0607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3a7dfa75b2b1d39a6389efa2325c0607">EEPROM_write</a> (<a class="el" href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a> address, <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> *data, <a class="el" href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a> length)</td></tr>
 <tr class="memdesc:ga3a7dfa75b2b1d39a6389efa2325c0607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes bytes to a specified location in EEPROM.  <br /></td></tr>
@@ -192,7 +192,7 @@ Functions</h2></td></tr>
 <p>checks whether or not <a class="el" href="#ga4f7cafc47d8a2c5da21c31fefd13b9dd" title="Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EE...">RestoreValues()</a> should be run. </p>
 <dl class="section return"><dt>Returns</dt><dd>1=<a class="el" href="#ga4f7cafc47d8a2c5da21c31fefd13b9dd" title="Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EE...">RestoreValues()</a> should be run, 0=<a class="el" href="#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset">ResetToODDefault()</a> was run, so don't restore from EEPROM </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00026">26</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00027">27</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00130">main()</a>.</p>
 <div class="dynheader">
@@ -233,17 +233,17 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions. </p>
+<p>Commits edits to EEPROM from ram to flash. </p>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00262">262</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00227">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00172">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00050">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph.png" border="0" usemap="#agroup__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph" alt=""/></div>
 <map name="agroup__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph" id="agroup__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph">
-<area shape="rect" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="576,80,711,105"/>
+<area shape="rect" title="Commits edits to EEPROM from ram to flash." alt="" coords="576,80,711,105"/>
 <area shape="rect" href="group__EEPROM.html#ga0804a0b415fdebbb6f4bcc348322c2a8" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="407,5,507,31"/>
 <area shape="poly" title=" " alt="" coords="602,77,527,44,496,33,498,28,529,40,604,72"/>
 <area shape="rect" href="group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset" alt="" coords="387,55,528,80"/>
@@ -283,9 +283,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Discards current edits to EEPROM without committing to flash, frees up ram and closes handle. </p>
+<p>Discards current edits to EEPROM without committing to flash. </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00306">306</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00305">305</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 </div>
 </div>
@@ -306,9 +306,9 @@ Here is the caller graph for this function:</div>
 
 <p>Copies the EEPROM into ram for modification by <a class="el" href="#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM.">EEPROM_write()</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00247">247</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00248">248</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00227">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00172">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00050">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -373,9 +373,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00341">341</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00339">339</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00026">CheckRestoreFlag()</a>, <a class="el" href="main_8c_source.html#l00617">ReadEEProm()</a>, and <a class="el" href="eedata_8c_source.html#l00116">RestoreValues()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00027">CheckRestoreFlag()</a>, <a class="el" href="main_8c_source.html#l00617">ReadEEProm()</a>, and <a class="el" href="eedata_8c_source.html#l00117">RestoreValues()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -429,7 +429,7 @@ Here is the caller graph for this function:</div>
 
 <p>Writes bytes to a specified location in EEPROM. </p>
 <p><a class="el" href="#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()">EEPROM_open()</a> must be called before this to copy EEPROM into ram, which this function edits</p>
-<p><a class="el" href="#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions.">EEPROM_commit()</a> is called afterwards to commit EEPROM edits to flash </p><dl class="params"><dt>Parameters</dt><dd>
+<p><a class="el" href="#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash.">EEPROM_commit()</a> is called afterwards to commit EEPROM edits to flash </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">address</td><td>The address, relative to the start of the EEPROM where the data will be written. </td></tr>
     <tr><td class="paramname">*data</td><td>pointer to the data (or array) to be written </td></tr>
@@ -438,9 +438,9 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00325">325</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00323">323</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00227">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00172">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00050">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -494,7 +494,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00227">227</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00228">228</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>.</p>
 <div class="dynheader">
@@ -503,7 +503,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="group__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph.png" border="0" usemap="#agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph" alt=""/></div>
 <map name="agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph" id="agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph">
 <area shape="rect" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="5,55,105,80"/>
-<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="153,5,288,31"/>
+<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash." alt="" coords="153,5,288,31"/>
 <area shape="poly" title=" " alt="" coords="98,52,163,32,165,37,99,57"/>
 <area shape="rect" href="group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="163,55,279,80"/>
 <area shape="poly" title=" " alt="" coords="105,65,149,65,149,70,105,70"/>
@@ -560,7 +560,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00204">204</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00205">205</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00587">ReadLocalFlashMemory()</a>.</p>
 <div class="dynheader">
@@ -597,9 +597,9 @@ Here is the caller graph for this function:</div>
 
 <p>resets module, called by <a class="el" href="#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset">ResetToODDefault()</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00190">190</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00191">191</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>, and <a class="el" href="eedata_8c_source.html#l00172">ResetToODDefault()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>, and <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -635,7 +635,7 @@ Here is the caller graph for this function:</div>
 
 <p>invoked by nmt_master &ndash; writes 0's to size causing bypass of OD restore, then causes reset </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00172">172</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00173">173</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>.</p>
 <div class="dynheader">
@@ -644,7 +644,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="group__EEPROM_ga7c016b02fced5c04608e80122688d99f_cgraph.png" border="0" usemap="#agroup__EEPROM_ga7c016b02fced5c04608e80122688d99f_cgraph" alt=""/></div>
 <map name="agroup__EEPROM_ga7c016b02fced5c04608e80122688d99f_cgraph" id="agroup__EEPROM_ga7c016b02fced5c04608e80122688d99f_cgraph">
 <area shape="rect" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset" alt="" coords="5,80,147,105"/>
-<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="195,5,329,31"/>
+<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash." alt="" coords="195,5,329,31"/>
 <area shape="poly" title=" " alt="" coords="105,77,194,40,211,33,213,38,196,44,107,82"/>
 <area shape="rect" href="group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="204,55,320,80"/>
 <area shape="poly" title=" " alt="" coords="147,80,190,74,191,80,148,86"/>
@@ -687,7 +687,7 @@ Here is the caller graph for this function:</div>
 <p>Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EEPROM. Companion function to <a class="el" href="#gabdbcc16ecac7cbd0adad6cfc5805ae54" title="Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the O...">SaveValues()</a>. Note that if the RestoreList is changed, <a class="el" href="#ga4f7cafc47d8a2c5da21c31fefd13b9dd" title="Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EE...">RestoreValues()</a> will not restore values to the correct subindices in the OD unless the EEPROM data has been updated via <a class="el" href="#gabdbcc16ecac7cbd0adad6cfc5805ae54" title="Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the O...">SaveValues()</a>. I.e., <a class="el" href="#gabdbcc16ecac7cbd0adad6cfc5805ae54" title="Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the O...">SaveValues()</a> only stores the data bytes contained within the OD subindices in the order specified by RestoreList; the indices and subindices themselves are not stored in EEPROM. </p>
 <p>Called from NMT_Do_Restore_Cmd (only when in the Waiting Mode) and from the startup sequence. All OD indices used by the RestoreList MUST have more than one subindex, where the first subindex specifies the number of subindices. </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00116">116</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00117">117</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00130">main()</a>, and <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>.</p>
 <div class="dynheader">
@@ -735,7 +735,7 @@ Here is the caller graph for this function:</div>
 <p>Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the OD. Companion function to <a class="el" href="#ga4f7cafc47d8a2c5da21c31fefd13b9dd" title="Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EE...">RestoreValues()</a>. Note that if the RestoreList is changed, <a class="el" href="#ga4f7cafc47d8a2c5da21c31fefd13b9dd" title="Restores the values of custom OD entries (specified in RestoreList OD index 0x2900) to the OD from EE...">RestoreValues()</a> will not restore values to the correct subindices in the OD unless the EEPROM data has been updated via <a class="el" href="#gabdbcc16ecac7cbd0adad6cfc5805ae54" title="Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the O...">SaveValues()</a>. I.e., <a class="el" href="#gabdbcc16ecac7cbd0adad6cfc5805ae54" title="Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the O...">SaveValues()</a> only stores the data bytes contained within the OD subindices in the order specified by RestoreList; the indices and subindices themselves are not stored in EEPROM. </p>
 <p>Called from NMT_Do_Restore_Cmd (only when in the Waiting Mode) and from the startup sequence. The first two bytes in EEPROM specify the amount EEPROM used by this function. All OD indices used by the RestoreList MUST have more than one subindex, where the first subindex specifies the number of subindices. Takes ~9ms per byte that needs to be saved. </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00050">50</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00051">51</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00130">main()</a>, and <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>.</p>
 <div class="dynheader">
@@ -744,7 +744,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="group__EEPROM_gabdbcc16ecac7cbd0adad6cfc5805ae54_cgraph.png" border="0" usemap="#agroup__EEPROM_gabdbcc16ecac7cbd0adad6cfc5805ae54_cgraph" alt=""/></div>
 <map name="agroup__EEPROM_gabdbcc16ecac7cbd0adad6cfc5805ae54_cgraph" id="agroup__EEPROM_gabdbcc16ecac7cbd0adad6cfc5805ae54_cgraph">
 <area shape="rect" title="Saves the values of custom OD entries (specified in RestoreList OD index 0x2900) to EEPROM from the O..." alt="" coords="5,55,103,80"/>
-<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="151,5,285,31"/>
+<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash." alt="" coords="151,5,285,31"/>
 <area shape="poly" title=" " alt="" coords="96,52,161,32,163,37,98,57"/>
 <area shape="rect" href="group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="160,55,276,80"/>
 <area shape="poly" title=" " alt="" coords="103,65,146,65,146,70,103,70"/>

@@ -167,10 +167,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:gaee536954a28801f7d7a114d958716dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the EEPROM into ram for modification by <a class="el" href="group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM.">EEPROM_write()</a>  <br /></td></tr>
 <tr class="separator:gaee536954a28801f7d7a114d958716dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga975cce9100cc358d298afa9340b28f0a" id="r_ga975cce9100cc358d298afa9340b28f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a">EEPROM_commit</a> ()</td></tr>
-<tr class="memdesc:ga975cce9100cc358d298afa9340b28f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions.  <br /></td></tr>
+<tr class="memdesc:ga975cce9100cc358d298afa9340b28f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Commits edits to EEPROM from ram to flash.  <br /></td></tr>
 <tr class="separator:ga975cce9100cc358d298afa9340b28f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae9480474d4f2fe514f287e3b3be186f5" id="r_gae9480474d4f2fe514f287e3b3be186f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#gae9480474d4f2fe514f287e3b3be186f5">EEPROM_discard</a> ()</td></tr>
-<tr class="memdesc:gae9480474d4f2fe514f287e3b3be186f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discards current edits to EEPROM without committing to flash, frees up ram and closes handle.  <br /></td></tr>
+<tr class="memdesc:gae9480474d4f2fe514f287e3b3be186f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Discards current edits to EEPROM without committing to flash.  <br /></td></tr>
 <tr class="separator:gae9480474d4f2fe514f287e3b3be186f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3a7dfa75b2b1d39a6389efa2325c0607" id="r_ga3a7dfa75b2b1d39a6389efa2325c0607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607">EEPROM_write</a> (<a class="el" href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a> address, <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> *data, <a class="el" href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a> length)</td></tr>
 <tr class="memdesc:ga3a7dfa75b2b1d39a6389efa2325c0607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes bytes to a specified location in EEPROM.  <br /></td></tr>
@@ -181,8 +181,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aca9531ead52c27214c34a7d6e14afae4" id="r_aca9531ead52c27214c34a7d6e14afae4"><td class="memItemLeft" align="right" valign="top">uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca9531ead52c27214c34a7d6e14afae4">page</a> = NULL</td></tr>
-<tr class="separator:aca9531ead52c27214c34a7d6e14afae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0824c98b5a8609360d06a86112f4144" id="r_af0824c98b5a8609360d06a86112f4144"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0824c98b5a8609360d06a86112f4144">page</a> [FLASH_PAGE_SIZE *<a class="el" href="eedata_8h.html#addfda15f5f3ec6f8f325f48be50c548a">EEPROM_PAGE_SIZE</a>]</td></tr>
+<tr class="separator:af0824c98b5a8609360d06a86112f4144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeb082782f7f90c428cce8129a656cab" id="r_aeeb082782f7f90c428cce8129a656cab"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeeb082782f7f90c428cce8129a656cab">memOpen</a> = 0</td></tr>
+<tr class="separator:aeeb082782f7f90c428cce8129a656cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section date"><dt>Date</dt><dd>Created on: Oct 14, 2024 </dd></dl>
@@ -190,14 +192,30 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 </div><h2 class="groupheader">Variable Documentation</h2>
-<a id="aca9531ead52c27214c34a7d6e14afae4" name="aca9531ead52c27214c34a7d6e14afae4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca9531ead52c27214c34a7d6e14afae4">&#9670;&#160;</a></span>page</h2>
+<a id="aeeb082782f7f90c428cce8129a656cab" name="aeeb082782f7f90c428cce8129a656cab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeb082782f7f90c428cce8129a656cab">&#9670;&#160;</a></span>memOpen</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t* page = NULL</td>
+          <td class="memname">uint8_t memOpen = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00020">20</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+
+</div>
+</div>
+<a id="af0824c98b5a8609360d06a86112f4144" name="af0824c98b5a8609360d06a86112f4144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0824c98b5a8609360d06a86112f4144">&#9670;&#160;</a></span>page</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t page[FLASH_PAGE_SIZE *<a class="el" href="eedata_8h.html#addfda15f5f3ec6f8f325f48be50c548a">EEPROM_PAGE_SIZE</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">

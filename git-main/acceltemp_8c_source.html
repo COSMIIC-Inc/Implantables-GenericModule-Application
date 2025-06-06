@@ -339,12 +339,12 @@ $(function(){initNavTree('acceltemp_8c_source.html',''); initResizable(true); })
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>       memmove( &amp;yBuf[1], &amp;yBuf[0], depth-1);</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>       memmove( &amp;zBuf[1], &amp;zBuf[0], depth-1);</div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>       <span class="comment">//accelData is 0 to 256</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>       <span class="comment">//Accelerometers is 0 to 256</span></div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>       <span class="comment">//Add new value at beginning of buffer</span></div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>       <span class="comment">//ignore bottom two bits and convert to signed (-32 to 31 range)</span></div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>       xBuf[0]=(<a class="code hl_define" href="applicfg_8h.html#a662ebb8e51dc6acbd8850e22f172c5bf">INTEGER8</a>)(accelData[0]&gt;&gt;2) - 32;</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>       yBuf[0]=(<a class="code hl_define" href="applicfg_8h.html#a662ebb8e51dc6acbd8850e22f172c5bf">INTEGER8</a>)(accelData[1]&gt;&gt;2) - 32;</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>       zBuf[0]=(<a class="code hl_define" href="applicfg_8h.html#a662ebb8e51dc6acbd8850e22f172c5bf">INTEGER8</a>)(accelData[2]&gt;&gt;2) - 32;</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>       xBuf[0]=(<a class="code hl_define" href="applicfg_8h.html#a662ebb8e51dc6acbd8850e22f172c5bf">INTEGER8</a>)(Accelerometers[0]&gt;&gt;2) - 32;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>       yBuf[0]=(<a class="code hl_define" href="applicfg_8h.html#a662ebb8e51dc6acbd8850e22f172c5bf">INTEGER8</a>)(Accelerometers[1]&gt;&gt;2) - 32;</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>       zBuf[0]=(<a class="code hl_define" href="applicfg_8h.html#a662ebb8e51dc6acbd8850e22f172c5bf">INTEGER8</a>)(Accelerometers[2]&gt;&gt;2) - 32;</div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>       <span class="keywordflow">if</span>(cnt&lt;depth) <span class="comment">//if we haven&#39;t yet reached sampled depth</span></div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>       {</div>

@@ -41,7 +41,7 @@
 <area shape="poly" id="edge12_Node000012_Node000003" title=" " alt="" coords="478,104,572,82,573,87,479,110"/>
 <area shape="rect" id="Node000014" href="$group__EEPROM.html#gae67ea992850a61610f75d19d63ec7519" title="reads CPU based flash data" alt="" coords="563,156,717,181"/>
 <area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="515,166,549,166,549,171,515,171"/>
-<area shape="rect" id="Node000016" href="$group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash, frees ram space to be used by other program functions." alt="" coords="573,205,707,231"/>
+<area shape="rect" id="Node000016" href="$group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash." alt="" coords="573,205,707,231"/>
 <area shape="poly" id="edge16_Node000015_Node000016" title=" " alt="" coords="479,215,559,215,559,221,479,221"/>
 <area shape="rect" id="Node000017" href="$group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="582,255,698,280"/>
 <area shape="poly" id="edge17_Node000015_Node000017" title=" " alt="" coords="480,228,571,249,570,254,478,233"/>
