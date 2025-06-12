@@ -1,0 +1,9 @@
+<map id="EEPROM_erase" name="EEPROM_erase">
+<area shape="rect" id="Node000001" title="writes 0xFF to entire EEPROM (6KB)." alt="" coords="5,55,125,80"/>
+<area shape="rect" id="Node000002" href="$group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash." alt="" coords="173,5,308,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,52,181,32,182,37,112,57"/>
+<area shape="rect" id="Node000003" href="$group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="183,55,299,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,65,169,65,169,70,126,70"/>
+<area shape="rect" id="Node000004" href="$group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM." alt="" coords="182,104,299,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="112,77,182,98,181,103,110,83"/>
+</map>

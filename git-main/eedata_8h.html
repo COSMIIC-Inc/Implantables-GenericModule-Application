@@ -140,15 +140,15 @@ $(function(){initNavTree('eedata_8h.html',''); initResizable(true); });
 Macros</h2></td></tr>
 <tr class="memitem:adc8f493c418311628f3251393fb9c4c5" id="r_adc8f493c418311628f3251393fb9c4c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8f493c418311628f3251393fb9c4c5">MAX_BYTES_PER_SUBINDEX</a>&#160;&#160;&#160;32</td></tr>
 <tr class="separator:adc8f493c418311628f3251393fb9c4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f4efe019455769caa387ddaa12b0ca" id="r_a50f4efe019455769caa387ddaa12b0ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f4efe019455769caa387ddaa12b0ca">MAX_EEPROM_MEMORY</a>&#160;&#160;&#160;0x800</td></tr>
-<tr class="memdesc:a50f4efe019455769caa387ddaa12b0ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">(2KB)  <br /></td></tr>
+<tr class="memitem:a50f4efe019455769caa387ddaa12b0ca" id="r_a50f4efe019455769caa387ddaa12b0ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f4efe019455769caa387ddaa12b0ca">MAX_EEPROM_MEMORY</a>&#160;&#160;&#160;0x1800</td></tr>
+<tr class="memdesc:a50f4efe019455769caa387ddaa12b0ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">(6KB)  <br /></td></tr>
 <tr class="separator:a50f4efe019455769caa387ddaa12b0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c3fdb46a05cdf199bdc1a6102eb5c85" id="r_a6c3fdb46a05cdf199bdc1a6102eb5c85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c3fdb46a05cdf199bdc1a6102eb5c85">EEPROM_RECORD_SIZE</a>&#160;&#160;&#160;32</td></tr>
 <tr class="separator:a6c3fdb46a05cdf199bdc1a6102eb5c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75f682a16f652fde05a5d4e09e1ffa77" id="r_a75f682a16f652fde05a5d4e09e1ffa77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75f682a16f652fde05a5d4e09e1ffa77">EEPROM_ERASE_SIZE</a>&#160;&#160;&#160;0x800</td></tr>
-<tr class="memdesc:a75f682a16f652fde05a5d4e09e1ffa77"><td class="mdescLeft">&#160;</td><td class="mdescRight">must be divisible into 2048 (2KB) by factor of 2, defines size of chunks erased from EEPROM  <br /></td></tr>
+<tr class="memitem:a75f682a16f652fde05a5d4e09e1ffa77" id="r_a75f682a16f652fde05a5d4e09e1ffa77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75f682a16f652fde05a5d4e09e1ffa77">EEPROM_ERASE_SIZE</a>&#160;&#160;&#160;0x60</td></tr>
+<tr class="memdesc:a75f682a16f652fde05a5d4e09e1ffa77"><td class="mdescLeft">&#160;</td><td class="mdescRight">must be divisible into 6144 (6KB) by factor of 2, defines size of chunks erased from EEPROM  <br /></td></tr>
 <tr class="separator:a75f682a16f652fde05a5d4e09e1ffa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addfda15f5f3ec6f8f325f48be50c548a" id="r_addfda15f5f3ec6f8f325f48be50c548a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addfda15f5f3ec6f8f325f48be50c548a">EEPROM_PAGE_SIZE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:addfda15f5f3ec6f8f325f48be50c548a" id="r_addfda15f5f3ec6f8f325f48be50c548a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addfda15f5f3ec6f8f325f48be50c548a">EEPROM_PAGE_SIZE</a>&#160;&#160;&#160;3</td></tr>
 <tr class="memdesc:addfda15f5f3ec6f8f325f48be50c548a"><td class="mdescLeft">&#160;</td><td class="mdescRight">XXX: must match the page size in bootloader <a class="el" href="config_8h.html">config.h</a>.  <br /></td></tr>
 <tr class="separator:addfda15f5f3ec6f8f325f48be50c548a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96932befbe81496318633eab6e623adb" id="r_a96932befbe81496318633eab6e623adb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96932befbe81496318633eab6e623adb">EEPROM_START_ADDRESS</a>&#160;&#160;&#160;((127 - <a class="el" href="#addfda15f5f3ec6f8f325f48be50c548a">EEPROM_PAGE_SIZE</a>) * FLASH_PAGE_SIZE)</td></tr>
@@ -177,9 +177,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga93edb3760bfdc6e22332313a963bc6e2" id="r_ga93edb3760bfdc6e22332313a963bc6e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#ga93edb3760bfdc6e22332313a963bc6e2">ResetModule</a> (void)</td></tr>
 <tr class="memdesc:ga93edb3760bfdc6e22332313a963bc6e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets module, called by <a class="el" href="group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset">ResetToODDefault()</a>  <br /></td></tr>
 <tr class="separator:ga93edb3760bfdc6e22332313a963bc6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0804a0b415fdebbb6f4bcc348322c2a8" id="r_ga0804a0b415fdebbb6f4bcc348322c2a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#ga0804a0b415fdebbb6f4bcc348322c2a8">EraseEprom</a> (<a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>)</td></tr>
-<tr class="memdesc:ga0804a0b415fdebbb6f4bcc348322c2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes 0xFF to entire EEPROM (2KB).  <br /></td></tr>
-<tr class="separator:ga0804a0b415fdebbb6f4bcc348322c2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade88590fab5767a1e0c556e4930942f0" id="r_gade88590fab5767a1e0c556e4930942f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#gade88590fab5767a1e0c556e4930942f0">EEPROM_erase</a> (<a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> space)</td></tr>
+<tr class="memdesc:gade88590fab5767a1e0c556e4930942f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes 0xFF to entire EEPROM (6KB).  <br /></td></tr>
+<tr class="separator:gade88590fab5767a1e0c556e4930942f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae67ea992850a61610f75d19d63ec7519" id="r_gae67ea992850a61610f75d19d63ec7519"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__EEPROM.html#gae67ea992850a61610f75d19d63ec7519">ReadLocalFlashData</a> (<a class="el" href="applicfg_8h.html#a889a782714194ae2f780002d25d6e0be">UNS32</a> nvAddress, <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> *data, <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> numData)</td></tr>
 <tr class="memdesc:gae67ea992850a61610f75d19d63ec7519"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads CPU based flash data  <br /></td></tr>
 <tr class="separator:gae67ea992850a61610f75d19d63ec7519"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,16 +209,16 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define EEPROM_ERASE_SIZE&#160;&#160;&#160;0x800</td>
+          <td class="memname">#define EEPROM_ERASE_SIZE&#160;&#160;&#160;0x60</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>must be divisible into 2048 (2KB) by factor of 2, defines size of chunks erased from EEPROM </p>
+<p>must be divisible into 6144 (6KB) by factor of 2, defines size of chunks erased from EEPROM </p>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00015">15</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EEPROM_erase()</a>.</p>
 
 </div>
 </div>
@@ -229,7 +229,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define EEPROM_PAGE_SIZE&#160;&#160;&#160;1</td>
+          <td class="memname">#define EEPROM_PAGE_SIZE&#160;&#160;&#160;3</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00016">16</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00262">EEPROM_commit()</a>, and <a class="el" href="eedata_8c_source.html#l00248">EEPROM_open()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00266">EEPROM_commit()</a>, and <a class="el" href="eedata_8c_source.html#l00252">EEPROM_open()</a>.</p>
 
 </div>
 </div>
@@ -274,7 +274,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00017">17</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00262">EEPROM_commit()</a>, <a class="el" href="eedata_8c_source.html#l00248">EEPROM_open()</a>, and <a class="el" href="eedata_8c_source.html#l00339">EEPROM_read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00266">EEPROM_commit()</a>, <a class="el" href="eedata_8c_source.html#l00252">EEPROM_open()</a>, and <a class="el" href="eedata_8c_source.html#l00343">EEPROM_read()</a>.</p>
 
 </div>
 </div>
@@ -317,16 +317,16 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_EEPROM_MEMORY&#160;&#160;&#160;0x800</td>
+          <td class="memname">#define MAX_EEPROM_MEMORY&#160;&#160;&#160;0x1800</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>(2KB) </p>
+<p>(6KB) </p>
 
 <p class="definition">Definition at line <a class="el" href="eedata_8h_source.html#l00013">13</a> of file <a class="el" href="eedata_8h_source.html">eedata.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00617">ReadEEProm()</a>, <a class="el" href="eedata_8c_source.html#l00117">RestoreValues()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EEPROM_erase()</a>, <a class="el" href="main_8c_source.html#l00617">ReadEEProm()</a>, <a class="el" href="eedata_8c_source.html#l00117">RestoreValues()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 
 </div>
 </div>

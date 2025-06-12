@@ -153,9 +153,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gae67ea992850a61610f75d19d63ec7519" id="r_gae67ea992850a61610f75d19d63ec7519"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae67ea992850a61610f75d19d63ec7519">ReadLocalFlashData</a> (<a class="el" href="applicfg_8h.html#a889a782714194ae2f780002d25d6e0be">UNS32</a> nvAddress, <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> *data, <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> numData)</td></tr>
 <tr class="memdesc:gae67ea992850a61610f75d19d63ec7519"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads CPU based flash data  <br /></td></tr>
 <tr class="separator:gae67ea992850a61610f75d19d63ec7519"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0804a0b415fdebbb6f4bcc348322c2a8" id="r_ga0804a0b415fdebbb6f4bcc348322c2a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0804a0b415fdebbb6f4bcc348322c2a8">EraseEprom</a> (<a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> space)</td></tr>
-<tr class="memdesc:ga0804a0b415fdebbb6f4bcc348322c2a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes 0xFF to entire EEPROM (2KB).  <br /></td></tr>
-<tr class="separator:ga0804a0b415fdebbb6f4bcc348322c2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade88590fab5767a1e0c556e4930942f0" id="r_gade88590fab5767a1e0c556e4930942f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gade88590fab5767a1e0c556e4930942f0">EEPROM_erase</a> (<a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> space)</td></tr>
+<tr class="memdesc:gade88590fab5767a1e0c556e4930942f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes 0xFF to entire EEPROM (6KB).  <br /></td></tr>
+<tr class="separator:gade88590fab5767a1e0c556e4930942f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaee536954a28801f7d7a114d958716dae" id="r_gaee536954a28801f7d7a114d958716dae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaee536954a28801f7d7a114d958716dae">EEPROM_open</a> ()</td></tr>
 <tr class="memdesc:gaee536954a28801f7d7a114d958716dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the EEPROM into ram for modification by <a class="el" href="#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM.">EEPROM_write()</a>  <br /></td></tr>
 <tr class="separator:gaee536954a28801f7d7a114d958716dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,16 +235,16 @@ Here is the caller graph for this function:</div>
 
 <p>Commits edits to EEPROM from ram to flash. </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00262">262</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00266">266</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EEPROM_erase()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph.png" border="0" usemap="#agroup__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph" alt=""/></div>
 <map name="agroup__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph" id="agroup__EEPROM_ga975cce9100cc358d298afa9340b28f0a_icgraph">
 <area shape="rect" title="Commits edits to EEPROM from ram to flash." alt="" coords="576,80,711,105"/>
-<area shape="rect" href="group__EEPROM.html#ga0804a0b415fdebbb6f4bcc348322c2a8" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="407,5,507,31"/>
+<area shape="rect" href="group__EEPROM.html#gade88590fab5767a1e0c556e4930942f0" title="writes 0xFF to entire EEPROM (6KB)." alt="" coords="397,5,517,31"/>
 <area shape="poly" title=" " alt="" coords="602,77,527,44,496,33,498,28,529,40,604,72"/>
 <area shape="rect" href="group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset" alt="" coords="387,55,528,80"/>
 <area shape="poly" title=" " alt="" coords="562,84,528,80,529,74,563,79"/>
@@ -253,7 +253,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="main_8c.html#a591af4f103c7e4d2111a8d737c350d39" title="used with handshake through the OD at 0x2020 to allow remote writing of a single value in the emulate..." alt="" coords="404,153,511,179"/>
 <area shape="poly" title=" " alt="" coords="602,114,529,144,498,156,496,151,527,140,600,109"/>
 <area shape="rect" href="group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,53,339,79"/>
-<area shape="poly" title=" " alt="" coords="394,35,304,56,303,51,393,30"/>
+<area shape="poly" title=" " alt="" coords="389,36,304,56,303,51,387,31"/>
 <area shape="rect" href="states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,53,108,79"/>
 <area shape="poly" title=" " alt="" coords="142,69,108,69,108,63,142,63"/>
 <area shape="poly" title=" " alt="" coords="373,69,339,69,339,64,373,64"/>
@@ -285,7 +285,62 @@ Here is the caller graph for this function:</div>
 
 <p>Discards current edits to EEPROM without committing to flash. </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00305">305</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00309">309</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+
+</div>
+</div>
+<a id="gade88590fab5767a1e0c556e4930942f0" name="gade88590fab5767a1e0c556e4930942f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gade88590fab5767a1e0c556e4930942f0">&#9670;&#160;</a></span>EEPROM_erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EEPROM_erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a></td>          <td class="paramname"><span class="paramname"><em>space</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>writes 0xFF to entire EEPROM (6KB). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">space</td><td>can be used to specify region of EEPROM (as long as aligned with EEPROM_ERASE_SIZE) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00228">228</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__EEPROM_gade88590fab5767a1e0c556e4930942f0_cgraph.png" border="0" usemap="#agroup__EEPROM_gade88590fab5767a1e0c556e4930942f0_cgraph" alt=""/></div>
+<map name="agroup__EEPROM_gade88590fab5767a1e0c556e4930942f0_cgraph" id="agroup__EEPROM_gade88590fab5767a1e0c556e4930942f0_cgraph">
+<area shape="rect" title="writes 0xFF to entire EEPROM (6KB)." alt="" coords="5,55,125,80"/>
+<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash." alt="" coords="173,5,308,31"/>
+<area shape="poly" title=" " alt="" coords="110,52,181,32,182,37,112,57"/>
+<area shape="rect" href="group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="183,55,299,80"/>
+<area shape="poly" title=" " alt="" coords="126,65,169,65,169,70,126,70"/>
+<area shape="rect" href="group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM." alt="" coords="182,104,299,129"/>
+<area shape="poly" title=" " alt="" coords="112,77,182,98,181,103,110,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__EEPROM_gade88590fab5767a1e0c556e4930942f0_icgraph.png" border="0" usemap="#agroup__EEPROM_gade88590fab5767a1e0c556e4930942f0_icgraph" alt=""/></div>
+<map name="agroup__EEPROM_gade88590fab5767a1e0c556e4930942f0_icgraph" id="agroup__EEPROM_gade88590fab5767a1e0c556e4930942f0_icgraph">
+<area shape="rect" title="writes 0xFF to entire EEPROM (6KB)." alt="" coords="387,5,507,31"/>
+<area shape="rect" href="group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,5,339,31"/>
+<area shape="poly" title=" " alt="" coords="373,21,339,21,339,15,373,15"/>
+<area shape="rect" href="states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,5,108,31"/>
+<area shape="poly" title=" " alt="" coords="142,21,108,21,108,15,142,15"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -306,16 +361,16 @@ Here is the caller graph for this function:</div>
 
 <p>Copies the EEPROM into ram for modification by <a class="el" href="#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM.">EEPROM_write()</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00248">248</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00252">252</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EEPROM_erase()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__EEPROM_gaee536954a28801f7d7a114d958716dae_icgraph.png" border="0" usemap="#agroup__EEPROM_gaee536954a28801f7d7a114d958716dae_icgraph" alt=""/></div>
 <map name="agroup__EEPROM_gaee536954a28801f7d7a114d958716dae_icgraph" id="agroup__EEPROM_gaee536954a28801f7d7a114d958716dae_icgraph">
 <area shape="rect" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="576,80,692,105"/>
-<area shape="rect" href="group__EEPROM.html#ga0804a0b415fdebbb6f4bcc348322c2a8" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="407,5,507,31"/>
+<area shape="rect" href="group__EEPROM.html#gade88590fab5767a1e0c556e4930942f0" title="writes 0xFF to entire EEPROM (6KB)." alt="" coords="397,5,517,31"/>
 <area shape="poly" title=" " alt="" coords="595,76,527,44,497,33,499,28,529,40,597,71"/>
 <area shape="rect" href="group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset" alt="" coords="387,55,528,80"/>
 <area shape="poly" title=" " alt="" coords="562,85,528,80,529,75,563,80"/>
@@ -324,7 +379,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="main_8c.html#a591af4f103c7e4d2111a8d737c350d39" title="used with handshake through the OD at 0x2020 to allow remote writing of a single value in the emulate..." alt="" coords="404,153,511,179"/>
 <area shape="poly" title=" " alt="" coords="597,114,529,144,499,156,497,151,527,140,594,109"/>
 <area shape="rect" href="group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,53,339,79"/>
-<area shape="poly" title=" " alt="" coords="394,35,304,56,303,51,393,30"/>
+<area shape="poly" title=" " alt="" coords="389,36,304,56,303,51,387,31"/>
 <area shape="rect" href="states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,53,108,79"/>
 <area shape="poly" title=" " alt="" coords="142,69,108,69,108,63,142,63"/>
 <area shape="poly" title=" " alt="" coords="373,69,339,69,339,64,373,64"/>
@@ -373,7 +428,7 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00339">339</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00343">343</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00027">CheckRestoreFlag()</a>, <a class="el" href="main_8c_source.html#l00617">ReadEEProm()</a>, and <a class="el" href="eedata_8c_source.html#l00117">RestoreValues()</a>.</p>
 <div class="dynheader">
@@ -438,16 +493,16 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00323">323</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00327">327</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EraseEprom()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="eedata_8c_source.html#l00228">EEPROM_erase()</a>, <a class="el" href="eedata_8c_source.html#l00173">ResetToODDefault()</a>, <a class="el" href="eedata_8c_source.html#l00051">SaveValues()</a>, and <a class="el" href="main_8c_source.html#l00648">WriteEEProm()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__EEPROM_ga3a7dfa75b2b1d39a6389efa2325c0607_icgraph.png" border="0" usemap="#agroup__EEPROM_ga3a7dfa75b2b1d39a6389efa2325c0607_icgraph" alt=""/></div>
 <map name="agroup__EEPROM_ga3a7dfa75b2b1d39a6389efa2325c0607_icgraph" id="agroup__EEPROM_ga3a7dfa75b2b1d39a6389efa2325c0607_icgraph">
 <area shape="rect" title="Writes bytes to a specified location in EEPROM." alt="" coords="576,80,693,105"/>
-<area shape="rect" href="group__EEPROM.html#ga0804a0b415fdebbb6f4bcc348322c2a8" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="407,5,507,31"/>
+<area shape="rect" href="group__EEPROM.html#gade88590fab5767a1e0c556e4930942f0" title="writes 0xFF to entire EEPROM (6KB)." alt="" coords="397,5,517,31"/>
 <area shape="poly" title=" " alt="" coords="596,76,527,44,497,33,499,28,529,40,598,71"/>
 <area shape="rect" href="group__EEPROM.html#ga7c016b02fced5c04608e80122688d99f" title="invoked by nmt_master – writes 0&#39;s to size causing bypass of OD restore, then causes reset" alt="" coords="387,55,528,80"/>
 <area shape="poly" title=" " alt="" coords="562,85,528,80,529,75,563,80"/>
@@ -456,7 +511,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="main_8c.html#a591af4f103c7e4d2111a8d737c350d39" title="used with handshake through the OD at 0x2020 to allow remote writing of a single value in the emulate..." alt="" coords="404,153,511,179"/>
 <area shape="poly" title=" " alt="" coords="597,114,529,144,499,156,497,151,527,140,595,109"/>
 <area shape="rect" href="group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,53,339,79"/>
-<area shape="poly" title=" " alt="" coords="394,35,304,56,303,51,393,30"/>
+<area shape="poly" title=" " alt="" coords="389,36,304,56,303,51,387,31"/>
 <area shape="rect" href="states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,53,108,79"/>
 <area shape="poly" title=" " alt="" coords="142,69,108,69,108,63,142,63"/>
 <area shape="poly" title=" " alt="" coords="373,69,339,69,339,64,373,64"/>
@@ -466,61 +521,6 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="main_8c.html#a3eeab65a540d78f5317a0895519b9078" title="Command processor to let CE read various memory locations." alt="" coords="193,155,302,180"/>
 <area shape="poly" title=" " alt="" coords="390,169,302,170,302,164,390,164"/>
 <area shape="poly" title=" " alt="" coords="179,161,84,148,85,143,180,156"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ga0804a0b415fdebbb6f4bcc348322c2a8" name="ga0804a0b415fdebbb6f4bcc348322c2a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0804a0b415fdebbb6f4bcc348322c2a8">&#9670;&#160;</a></span>EraseEprom()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void EraseEprom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a></td>          <td class="paramname"><span class="paramname"><em>space</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>writes 0xFF to entire EEPROM (2KB). </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">space</td><td>can be used to specify region of EEPROM (as long as aligned with EEPROM_ERASE_SIZE) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="eedata_8c_source.html#l00228">228</a> of file <a class="el" href="eedata_8c_source.html">eedata.c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="nmtSlave_8c_source.html#l00034">processNMTstateChange()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph.png" border="0" usemap="#agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph" alt=""/></div>
-<map name="agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph" id="agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_cgraph">
-<area shape="rect" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="5,55,105,80"/>
-<area shape="rect" href="group__EEPROM.html#ga975cce9100cc358d298afa9340b28f0a" title="Commits edits to EEPROM from ram to flash." alt="" coords="153,5,288,31"/>
-<area shape="poly" title=" " alt="" coords="98,52,163,32,165,37,99,57"/>
-<area shape="rect" href="group__EEPROM.html#gaee536954a28801f7d7a114d958716dae" title="Copies the EEPROM into ram for modification by EEPROM_write()" alt="" coords="163,55,279,80"/>
-<area shape="poly" title=" " alt="" coords="105,65,149,65,149,70,105,70"/>
-<area shape="rect" href="group__EEPROM.html#ga3a7dfa75b2b1d39a6389efa2325c0607" title="Writes bytes to a specified location in EEPROM." alt="" coords="162,104,279,129"/>
-<area shape="poly" title=" " alt="" coords="99,77,165,97,163,102,98,83"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_icgraph.png" border="0" usemap="#agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_icgraph" alt=""/></div>
-<map name="agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_icgraph" id="agroup__EEPROM_ga0804a0b415fdebbb6f4bcc348322c2a8_icgraph">
-<area shape="rect" title="writes 0xFF to entire EEPROM (2KB)." alt="" coords="387,5,487,31"/>
-<area shape="rect" href="group__nmtslave.html#ga50bd9509d41801ca38123e383b3f84a6" title="Manage the reception of a NMT message from the master." alt="" coords="156,5,339,31"/>
-<area shape="poly" title=" " alt="" coords="373,21,339,21,339,15,373,15"/>
-<area shape="rect" href="states_8c.html#a3f8975650604cc23582f19a43fd4e518" title="Called by driver/app when receiving messages." alt="" coords="5,5,108,31"/>
-<area shape="poly" title=" " alt="" coords="142,21,108,21,108,15,142,15"/>
 </map>
 </div>
 
