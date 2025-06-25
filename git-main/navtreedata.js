@@ -31,7 +31,7 @@ var NAVTREE =
         [ "Root", "md_manual_2How_01To_01Use.html#autotoc_md20", null ],
         [ "Core/Src", "md_manual_2How_01To_01Use.html#autotoc_md21", null ],
         [ "Core/Inc", "md_manual_2How_01To_01Use.html#autotoc_md22", null ],
-        [ "Core/app", "md_manual_2How_01To_01Use.html#autotoc_md23", [
+        [ "Core/App", "md_manual_2How_01To_01Use.html#autotoc_md23", [
           [ "module Folder", "md_manual_2How_01To_01Use.html#autotoc_md24", null ],
           [ "Object Dictionary", "md_manual_2How_01To_01Use.html#autotoc_md25", null ]
         ] ]
@@ -54,7 +54,7 @@ var NAVTREE =
         [ "Add to Restore List", "md_manual_2How_01To_01Use.html#autotoc_md38", null ]
       ] ],
       [ "Adding Functionality", "md_manual_2How_01To_01Use.html#autotoc_md39", [
-        [ "STM_RM.ioc", "md_manual_2How_01To_01Use.html#autotoc_md40", null ]
+        [ "Implantables-GenericModule-Application.ioc", "md_manual_2How_01To_01Use.html#autotoc_md40", null ]
       ] ],
       [ "Adding Documentation", "md_manual_2How_01To_01Use.html#autotoc_md41", null ]
     ] ],

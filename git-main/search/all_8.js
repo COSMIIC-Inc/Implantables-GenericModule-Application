@@ -27,7 +27,7 @@ var searchData=
   ['configures_20the_20system_20clock_20as_20follows_3a_24',['This file configures the system clock as follows:',['../system__stm32l4xx_8c.html#autotoc_md0',1,'']]],
   ['consumerhearbeatalarm_25',['ConsumerHearbeatAlarm',['../lifegrd_8c.html#ae3cd4656f5b2a37d4b8d364293538198',1,'lifegrd.c']]],
   ['copybits_26',['CopyBits',['../group__pdo.html#gae468510c9f77f502207d961d26389918',1,'CopyBits(UNS8 NbBits, UNS8 *SrcByteIndex, UNS8 SrcBitIndex, UNS8 SrcBigEndian, UNS8 *DestByteIndex, UNS8 DestBitIndex, UNS8 DestBigEndian):&#160;pdo.c'],['../group__pdo.html#gae468510c9f77f502207d961d26389918',1,'CopyBits(UNS8 NbBits, UNS8 *SrcByteIndex, UNS8 SrcBitIndex, UNS8 SrcBigEndian, UNS8 *DestByteIndex, UNS8 DestBitIndex, UNS8 DestBigEndian):&#160;pdo.c']]],
-  ['core_20app_27',['Core/app',['../md_manual_2How_01To_01Use.html#autotoc_md23',1,'']]],
+  ['core_20app_27',['Core/App',['../md_manual_2How_01To_01Use.html#autotoc_md23',1,'']]],
   ['core_20inc_28',['Core/Inc',['../md_manual_2How_01To_01Use.html#autotoc_md22',1,'']]],
   ['core_20src_29',['Core/Src',['../md_manual_2How_01To_01Use.html#autotoc_md21',1,'']]],
   ['core_20src_20system_5fstm32l4xx_20c_30',['Core/Src/system_stm32l4xx.c',['../md_manual_2How_01To_01Use.html#autotoc_md28',1,'']]],

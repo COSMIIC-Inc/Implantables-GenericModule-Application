@@ -15,11 +15,12 @@ var searchData=
   ['and_20rng_20clock_12',['SDIO and RNG clock                     |',['../system__stm32l4xx_8c.html#autotoc_md18',1,'']]],
   ['apb1_20prescaler_201_13',['APB1 Prescaler                         | 1',['../system__stm32l4xx_8c.html#autotoc_md5',1,'']]],
   ['apb2_20prescaler_201_14',['APB2 Prescaler                         | 1',['../system__stm32l4xx_8c.html#autotoc_md6',1,'']]],
-  ['app_15',['Core/app',['../md_manual_2How_01To_01Use.html#autotoc_md23',1,'']]],
+  ['app_15',['Core/App',['../md_manual_2How_01To_01Use.html#autotoc_md23',1,'']]],
   ['app_2ec_16',['app.c',['../app_8c.html',1,'']]],
   ['app_2eh_17',['app.h',['../app_8h.html',1,'']]],
   ['application_18',['Module Application',['../group__application.html',1,'']]],
-  ['applicfg_2eh_19',['applicfg.h',['../applicfg_8h.html',1,'']]],
-  ['as_20follows_3a_20',['This file configures the system clock as follows:',['../system__stm32l4xx_8c.html#autotoc_md0',1,'']]],
-  ['assert_5fparam_21',['assert_param',['../stm32l4xx__hal__conf_8h.html#a631dea7b230e600555f979c62af1de21',1,'stm32l4xx_hal_conf.h']]]
+  ['application_20ioc_19',['Implantables-GenericModule-Application.ioc',['../md_manual_2How_01To_01Use.html#autotoc_md40',1,'']]],
+  ['applicfg_2eh_20',['applicfg.h',['../applicfg_8h.html',1,'']]],
+  ['as_20follows_3a_21',['This file configures the system clock as follows:',['../system__stm32l4xx_8c.html#autotoc_md0',1,'']]],
+  ['assert_5fparam_22',['assert_param',['../stm32l4xx__hal__conf_8h.html#a631dea7b230e600555f979c62af1de21',1,'stm32l4xx_hal_conf.h']]]
 ];

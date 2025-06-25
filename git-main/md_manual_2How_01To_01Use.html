@@ -145,7 +145,7 @@ $(function(){initNavTree('md_manual_2How_01To_01Use.html',''); initResizable(tru
         <a href="#autotoc_md22">Core/Inc</a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md23">Core/app</a>
+        <a href="#autotoc_md23">Core/App</a>
         <ul>
           <li class="level3">
             <a href="#autotoc_md24">module Folder</a>
@@ -208,7 +208,7 @@ $(function(){initNavTree('md_manual_2How_01To_01Use.html',''); initResizable(tru
     <a href="#autotoc_md39">Adding Functionality</a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md40">STM_RM.ioc</a>
+        <a href="#autotoc_md40">Implantables-GenericModule-Application.ioc</a>
       </li>
     </ul>
   </li>
@@ -233,8 +233,8 @@ Core/Inc</h2>
 <p>The Inc (or include) directory contains the header files for files within the Core/Src directory.</p>
 <p>The main file in this directory that will be modified for user implementation is <a class="el" href="def_8h.html">def.h</a>, which defines NMT commands the module is able to receive.</p>
 <h2><a class="anchor" id="autotoc_md23"></a>
-Core/app</h2>
-<p>The app directory contains the user application files. This is where your custom implementation of the module will live.</p>
+Core/App</h2>
+<p>The App (or application) directory contains the user application files. This is where your custom implementation of the module will live.</p>
 <h3><a class="anchor" id="autotoc_md24"></a>
 module Folder</h3>
 <p>There are a few files present in the directory that are required for operation of the generic module, but are not part of the core CanFest implentation, and thus, are included here.</p>
@@ -517,10 +517,10 @@ Adding Functionality</h1>
 <dl class="section important"><dt>Important</dt><dd>Do not modify <a class="el" href="main_8c.html" title=": Main program body">main.c</a>, outside of changes from modifying STM_RM.ioc. Application code should live in Core/app</dd></dl>
 <p>An example of implemented application code is locally present in <a class="el" href="acceltemp_8c.html">acceltemp.c</a>, with a full application example in SWARM.</p>
 <h2><a class="anchor" id="autotoc_md40"></a>
-STM_RM.ioc</h2>
-<p>‎<code>STM_RM.ioc</code> is the STM32CubeMX configuration file that enables creation of initialization code for pin function and system clocks through a GUI.</p>
+Implantables-GenericModule-Application.ioc</h2>
+<p>‎<code>Implantables-GenericModule-Application.ioc</code> is the STM32CubeMX configuration file that enables creation of initialization code for pin function and system clocks through a GUI.</p>
 <p>As long as the existing set up peripherals and pin assignments are not modified, the ioc file can be used to add additional peripherals and GPIO to the project.</p>
-<dl class="section note"><dt>Note</dt><dd>STM_RM.ioc must be renamed to match the name of the folder that contains it.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Implantables-GenericModule-Application.ioc must be renamed to match the name of the folder that contains it.</dd></dl>
 <h1><a class="anchor" id="autotoc_md41"></a>
 Adding Documentation</h1>
 <p>The repository is set up with the Doxygen toolchain in mind. The repository also contains custom GitHub Actions and Workflows that will automatically publish Doxygen documentation to GitHub Pages on each commit to the main branch. The Doxygen configuration also adds a revision history feature, which allows users to view a snapshot of the documentation as it was when a release was published on GitHub.</p><ul>
