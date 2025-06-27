@@ -88,8 +88,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ObjDict_8c.html",
-"group__sdo.html#ga4bb4b3cd35af7e7580cffde23e9d3270",
-"structtd__indextable.html"
+"group__sdo.html#ga4be8e8eaf887ff0a8c4073fe00f4c10c",
+"structtd__subindex.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"structtd__indextable.html":[3,0,12],
 "structtd__subindex.html":[3,0,13],
 "sync_8c.html":[4,0,0,2,14],
 "sync_8c_source.html":[4,0,0,2,14],
@@ -28,6 +27,6 @@ var NAVTREEINDEX2 =
 "timer__driver_8h_source.html":[4,0,0,1,22],
 "timer__stm_8c.html":[2,1,1],
 "timer__stm_8c.html":[2,3,11],
-"timerscfg_8h_source.html":[4,0,0,1,0,5],
+"timerscfg_8h_source.html":[4,0,0,1,0,4],
 "topics.html":[2]
 };
