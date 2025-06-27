@@ -197,7 +197,7 @@ $(function(){initNavTree('timer__stm_8c_source.html',''); initResizable(true); }
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordflow">if</span> (htim-&gt;Instance == TIM2) {</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        last_time_set = 0;</div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        elapsed_time = 0;</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        TIM2-&gt;SR = (uint16_t)~TIM_SR_UIF;  <span class="comment">//Clear pending interrupt</span></div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        CLEAR_BIT(TIM2-&gt;SR, TIM_SR_UIF); <span class="comment">//Clear pending interrupt</span></div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <a class="code hl_function" href="group__timer.html#ga9e5fb60f13faab8705899c5806754864">TimeDispatch</a>();</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    }</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>}</div>
