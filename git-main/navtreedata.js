@@ -39,24 +39,26 @@ var NAVTREE =
       [ "Restricted Peripherals", "md_manual_2How_01To_01Use.html#autotoc_md26", null ],
       [ "Configuration Differences", "md_manual_2How_01To_01Use.html#autotoc_md27", [
         [ "Core/Src/system_stm32l4xx.c", "md_manual_2How_01To_01Use.html#autotoc_md28", null ],
-        [ "STM32L433RCTXP_FLASH.ld", "md_manual_2How_01To_01Use.html#autotoc_md29", null ]
+        [ "STM32L433RCTXP_FLASH.ld", "md_manual_2How_01To_01Use.html#autotoc_md29", [
+          [ "Full Memory Layout", "md_manual_2How_01To_01Use.html#autotoc_md30", null ]
+        ] ]
       ] ],
-      [ "Object Dictionary", "md_manual_2How_01To_01Use.html#autotoc_md30", [
-        [ "Default/Common Entries", "md_manual_2How_01To_01Use.html#autotoc_md31", null ],
-        [ "Adding Entries", "md_manual_2How_01To_01Use.html#autotoc_md32", [
-          [ "Creating Variables", "md_manual_2How_01To_01Use.html#autotoc_md33", null ],
-          [ "Defining Object Dictionary Structures", "md_manual_2How_01To_01Use.html#autotoc_md34", null ],
-          [ "Registering Object Dictionary Entries", "md_manual_2How_01To_01Use.html#autotoc_md35", null ]
+      [ "Object Dictionary", "md_manual_2How_01To_01Use.html#autotoc_md31", [
+        [ "Default/Common Entries", "md_manual_2How_01To_01Use.html#autotoc_md32", null ],
+        [ "Adding Entries", "md_manual_2How_01To_01Use.html#autotoc_md33", [
+          [ "Creating Variables", "md_manual_2How_01To_01Use.html#autotoc_md34", null ],
+          [ "Defining Object Dictionary Structures", "md_manual_2How_01To_01Use.html#autotoc_md35", null ],
+          [ "Registering Object Dictionary Entries", "md_manual_2How_01To_01Use.html#autotoc_md36", null ]
         ] ],
-        [ "Adding Callbacks", "md_manual_2How_01To_01Use.html#autotoc_md36", [
-          [ "Registering an Object Dictionary Callback to a Function", "md_manual_2How_01To_01Use.html#autotoc_md37", null ]
+        [ "Adding Callbacks", "md_manual_2How_01To_01Use.html#autotoc_md37", [
+          [ "Registering an Object Dictionary Callback to a Function", "md_manual_2How_01To_01Use.html#autotoc_md38", null ]
         ] ],
-        [ "Add to Restore List", "md_manual_2How_01To_01Use.html#autotoc_md38", null ]
+        [ "Add to Restore List", "md_manual_2How_01To_01Use.html#autotoc_md39", null ]
       ] ],
-      [ "Adding Functionality", "md_manual_2How_01To_01Use.html#autotoc_md39", [
-        [ "Implantables-GenericModule-Application.ioc", "md_manual_2How_01To_01Use.html#autotoc_md40", null ]
+      [ "Adding Functionality", "md_manual_2How_01To_01Use.html#autotoc_md40", [
+        [ "Implantables-GenericModule-Application.ioc", "md_manual_2How_01To_01Use.html#autotoc_md41", null ]
       ] ],
-      [ "Adding Documentation", "md_manual_2How_01To_01Use.html#autotoc_md41", null ]
+      [ "Adding Documentation", "md_manual_2How_01To_01Use.html#autotoc_md42", null ]
     ] ],
     [ "Topics", "topics.html", "topics" ],
     [ "Classes", "annotated.html", [
@@ -89,7 +91,7 @@ var NAVTREEINDEX =
 [
 "ObjDict_8c.html",
 "group__sdo.html#ga4be8e8eaf887ff0a8c4073fe00f4c10c",
-"structtd__subindex.html"
+"structtd__indextable.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -5,6 +5,7 @@ var searchData=
   ['file_20configures_20the_20system_20clock_20as_20follows_3a_2',['This file configures the system clock as follows:',['../system__stm32l4xx_8c.html#autotoc_md0',1,'']]],
   ['folder_3',['module Folder',['../md_manual_2How_01To_01Use.html#autotoc_md24',1,'']]],
   ['follows_3a_4',['This file configures the system clock as follows:',['../system__stm32l4xx_8c.html#autotoc_md0',1,'']]],
-  ['function_5',['Registering an Object Dictionary Callback to a Function',['../md_manual_2How_01To_01Use.html#autotoc_md37',1,'']]],
-  ['functionality_6',['Adding Functionality',['../md_manual_2How_01To_01Use.html#autotoc_md39',1,'']]]
+  ['full_20memory_20layout_5',['Full Memory Layout',['../md_manual_2How_01To_01Use.html#autotoc_md30',1,'']]],
+  ['function_6',['Registering an Object Dictionary Callback to a Function',['../md_manual_2How_01To_01Use.html#autotoc_md38',1,'']]],
+  ['functionality_7',['Adding Functionality',['../md_manual_2How_01To_01Use.html#autotoc_md40',1,'']]]
 ];

@@ -3,8 +3,8 @@ var searchData=
   ['c_0',['Core/Src/system_stm32l4xx.c',['../md_manual_2How_01To_01Use.html#autotoc_md28',1,'']]],
   ['callback_1',['Callback',['../structstruct__s__transfer.html#ae32787d562569a71aa8f9633e3d34ca0',1,'struct_s_transfer']]],
   ['callback_2',['callback',['../structstruct__s__timer__entry.html#a3aaad06b3f938b7af91b790a4dd30669',1,'struct_s_timer_entry']]],
-  ['callback_20to_20a_20function_3',['Registering an Object Dictionary Callback to a Function',['../md_manual_2How_01To_01Use.html#autotoc_md37',1,'']]],
-  ['callbacks_4',['Adding Callbacks',['../md_manual_2How_01To_01Use.html#autotoc_md36',1,'']]],
+  ['callback_20to_20a_20function_3',['Registering an Object Dictionary Callback to a Function',['../md_manual_2How_01To_01Use.html#autotoc_md38',1,'']]],
+  ['callbacks_4',['Adding Callbacks',['../md_manual_2How_01To_01Use.html#autotoc_md37',1,'']]],
   ['can_2eh_5',['can.h',['../can_8h.html',1,'']]],
   ['can1_5frx0_5firqhandler_6',['CAN1_RX0_IRQHandler',['../stm32l4xx__it_8h.html#a4dcf621094d563287c456f7aa751e86b',1,'CAN1_RX0_IRQHandler(void):&#160;stm32l4xx_it.c'],['../stm32l4xx__it_8c.html#a4dcf621094d563287c456f7aa751e86b',1,'CAN1_RX0_IRQHandler(void):&#160;stm32l4xx_it.c']]],
   ['can1_5ftx_5firqhandler_7',['CAN1_TX_IRQHandler',['../stm32l4xx__it_8h.html#af98ac8adc0ee3edc95863fab9bc77a29',1,'CAN1_TX_IRQHandler(void):&#160;stm32l4xx_it.c'],['../stm32l4xx__it_8c.html#af98ac8adc0ee3edc95863fab9bc77a29',1,'CAN1_TX_IRQHandler(void):&#160;stm32l4xx_it.c']]],
@@ -21,7 +21,7 @@ var searchData=
   ['clock_20source_20msi_18',['System Clock source                    | MSI',['../system__stm32l4xx_8c.html#autotoc_md1',1,'']]],
   ['cmsis_19',['CMSIS',['../group__CMSIS.html',1,'']]],
   ['cob_5fid_20',['cob_id',['../structMessage.html#a0db105376ab9105abfcd15d56ea130d8',1,'Message']]],
-  ['common_20entries_21',['Default/Common Entries',['../md_manual_2How_01To_01Use.html#autotoc_md31',1,'']]],
+  ['common_20entries_21',['Default/Common Entries',['../md_manual_2How_01To_01Use.html#autotoc_md32',1,'']]],
   ['config_2eh_22',['config.h',['../config_8h.html',1,'']]],
   ['configuration_20differences_23',['Configuration Differences',['../md_manual_2How_01To_01Use.html#autotoc_md27',1,'']]],
   ['configures_20the_20system_20clock_20as_20follows_3a_24',['This file configures the system clock as follows:',['../system__stm32l4xx_8c.html#autotoc_md0',1,'']]],
@@ -31,8 +31,8 @@ var searchData=
   ['core_20inc_28',['Core/Inc',['../md_manual_2How_01To_01Use.html#autotoc_md22',1,'']]],
   ['core_20src_29',['Core/Src',['../md_manual_2How_01To_01Use.html#autotoc_md21',1,'']]],
   ['core_20src_20system_5fstm32l4xx_20c_30',['Core/Src/system_stm32l4xx.c',['../md_manual_2How_01To_01Use.html#autotoc_md28',1,'']]],
-  ['cosmiic_31',['Welcome to COSMIIC!',['../index.html#autotoc_md42',1,'']]],
+  ['cosmiic_31',['Welcome to COSMIIC!',['../index.html#autotoc_md43',1,'']]],
   ['count_32',['count',['../structstruct__s__transfer.html#a42a6d8e63916bf2b2d1649995f8f0e11',1,'struct_s_transfer']]],
   ['createreceivetask_33',['CreateReceiveTask',['../timer__driver_8h.html#a61060e46083c81fc7588b6c24ea4b6a0',1,'timer_driver.h']]],
-  ['creating_20variables_34',['Creating Variables',['../md_manual_2How_01To_01Use.html#autotoc_md33',1,'']]]
+  ['creating_20variables_34',['Creating Variables',['../md_manual_2How_01To_01Use.html#autotoc_md34',1,'']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['welcome_20to_20cosmiic_0',['Welcome to COSMIIC!',['../index.html#autotoc_md42',1,'']]],
+  ['welcome_20to_20cosmiic_0',['Welcome to COSMIIC!',['../index.html#autotoc_md43',1,'']]],
   ['whoami_1',['whoami',['../structstruct__s__transfer.html#aaa0efe13c25c38cc79842b3eded01b96',1,'struct_s_transfer']]],
   ['writeeeprom_2',['WriteEEProm',['../main_8c.html#a591af4f103c7e4d2111a8d737c350d39',1,'main.c']]],
   ['writenetworkdict_3',['writeNetworkDict',['../group__sdo.html#ga5b1848530ec78cf9c297747df09e1c47',1,'writeNetworkDict(CO_Data *d, UNS8 nodeId, UNS16 index, UNS8 subIndex, UNS32 count, UNS8 dataType, void *data):&#160;sdo.c'],['../group__sdo.html#ga5b1848530ec78cf9c297747df09e1c47',1,'writeNetworkDict(CO_Data *d, UNS8 nodeId, UNS16 index, UNS8 subIndex, UNS32 count, UNS8 dataType, void *data):&#160;sdo.c']]],

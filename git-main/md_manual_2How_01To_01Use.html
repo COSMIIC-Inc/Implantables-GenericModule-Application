@@ -168,52 +168,57 @@ $(function(){initNavTree('md_manual_2How_01To_01Use.html',''); initResizable(tru
       </li>
       <li class="level2">
         <a href="#autotoc_md29">STM32L433RCTXP_FLASH.ld</a>
+        <ul>
+          <li class="level3">
+            <a href="#autotoc_md30">Full Memory Layout</a>
+          </li>
+        </ul>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md30">Object Dictionary</a>
+    <a href="#autotoc_md31">Object Dictionary</a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md31">Default/Common Entries</a>
+        <a href="#autotoc_md32">Default/Common Entries</a>
       </li>
       <li class="level2">
-        <a href="#autotoc_md32">Adding Entries</a>
+        <a href="#autotoc_md33">Adding Entries</a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md33">Creating Variables</a>
+            <a href="#autotoc_md34">Creating Variables</a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md34">Defining Object Dictionary Structures</a>
+            <a href="#autotoc_md35">Defining Object Dictionary Structures</a>
           </li>
           <li class="level3">
-            <a href="#autotoc_md35">Registering Object Dictionary Entries</a>
+            <a href="#autotoc_md36">Registering Object Dictionary Entries</a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md36">Adding Callbacks</a>
+        <a href="#autotoc_md37">Adding Callbacks</a>
         <ul>
           <li class="level3">
-            <a href="#autotoc_md37">Registering an Object Dictionary Callback to a Function</a>
+            <a href="#autotoc_md38">Registering an Object Dictionary Callback to a Function</a>
           </li>
         </ul>
       </li>
       <li class="level2">
-        <a href="#autotoc_md38">Add to Restore List</a>
+        <a href="#autotoc_md39">Add to Restore List</a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md39">Adding Functionality</a>
+    <a href="#autotoc_md40">Adding Functionality</a>
     <ul>
       <li class="level2">
-        <a href="#autotoc_md40">Implantables-GenericModule-Application.ioc</a>
+        <a href="#autotoc_md41">Implantables-GenericModule-Application.ioc</a>
       </li>
     </ul>
   </li>
   <li class="level1">
-    <a href="#autotoc_md41">Adding Documentation</a>
+    <a href="#autotoc_md42">Adding Documentation</a>
   </li>
 </ul>
 </div>
@@ -279,16 +284,36 @@ STM32L433RCTXP_FLASH.ld</h2>
 <div class="line">{</div>
 <div class="line">  RAM    (xrw)    : ORIGIN = 0x20000000,   LENGTH = 48K</div>
 <div class="line">  RAM2    (xrw)    : ORIGIN = 0x10000000,   LENGTH = 16K</div>
-<div class="line">  FLASH    (rx)    : ORIGIN = 0x08005000,   LENGTH = 232K</div>
+<div class="line">  FLASH    (rx)    : ORIGIN = 0x08005000,   LENGTH = 228K</div>
 <div class="line">}</div>
 </div><!-- fragment --><p>The flash origin has a 0x5000 offset due to the bootloader, and the length is shortened, due to the bootloader, module parameter storage, and reserved EEPROM space.</p>
 <p>For a 256K module:</p><ul>
-<li>256K - 20K (bootloader) - 2K (parameter space) - 2K (EEPROM) = 232K</li>
+<li>256K - 20K (bootloader) - 2K (parameter space) - 6K (EEPROM) = 228K</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md30"></a>
+<h3><a class="anchor" id="autotoc_md30"></a>
+Full Memory Layout</h3>
+<p>The different sections of flash are shown below</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadCenter"></th><th class="markdownTableHeadCenter">Bootloader   </th><th class="markdownTableHeadCenter">App Space   </th><th class="markdownTableHeadCenter">EEPROM   </th><th class="markdownTableHeadCenter">Parameter Space    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Start Address   </td><td class="markdownTableBodyCenter">0x0000   </td><td class="markdownTableBodyCenter">0x5000   </td><td class="markdownTableBodyCenter">0x3E000   </td><td class="markdownTableBodyCenter">0x3F800    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter">End Address   </td><td class="markdownTableBodyCenter">0x4FFF   </td><td class="markdownTableBodyCenter">0x3DFFF   </td><td class="markdownTableBodyCenter">0x3F7FF   </td><td class="markdownTableBodyCenter">0x3FFFF    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Size   </td><td class="markdownTableBodyCenter">0x5000   </td><td class="markdownTableBodyCenter">0x39000   </td><td class="markdownTableBodyCenter">0x1800   </td><td class="markdownTableBodyCenter">0x800    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyCenter"># of flash pages   </td><td class="markdownTableBodyCenter">10   </td><td class="markdownTableBodyCenter">114   </td><td class="markdownTableBodyCenter">3   </td><td class="markdownTableBodyCenter">1    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyCenter">Purpose   </td><td class="markdownTableBodyCenter">Module bootloader (first entry point)   </td><td class="markdownTableBodyCenter">Application space (leftover space from allocation of other sections)   </td><td class="markdownTableBodyCenter">Space for emulated EEPROM   </td><td class="markdownTableBodyCenter">Parameter space (Node number, app checksum, stim limits, etc.)   </td></tr>
+</table>
+<dl class="section note"><dt>Note</dt><dd>The STM32L4xx series aliases <code>0x08000000</code> to <code>0x00000000</code> by default, each of the addresses should add <code>0x08000000</code> to write to the absolute flash address <br  />
+<br  />
+ e.g, <code>0x00004FFF</code> becomes <code>0x08004FFF</code></dd></dl>
+<h1><a class="anchor" id="autotoc_md31"></a>
 Object Dictionary</h1>
 <p>The Object Dictionary is the primary index for reading and writing data via FESCAN/CanFest. The <a class="el" href="ObjDict_8c.html">Object Dictionary</a> conatins module configuration data, state information, sensor information, etc; and is where any data you would like to retrieve over FESCAN will live.</p>
-<h2><a class="anchor" id="autotoc_md31"></a>
+<h2><a class="anchor" id="autotoc_md32"></a>
 Default/Common Entries</h2>
 <p>There are several entries in the Object Dictionary which are consistent across all FESCAN/CanFest devices. A non-exhaustive list of entries and their description are included below:</p>
 <table class="markdownTable">
@@ -309,10 +334,10 @@ Default/Common Entries</h2>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">0x3000   </td><td class="markdownTableBodyNone">Diagnostics   </td></tr>
 </table>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md33"></a>
 Adding Entries</h2>
 <p>Adding entries to the object dictionary is fairly simple. As an example, we will walk through adding two new entries to the Object Dictionary, SimpleVariable, and SimpleArray.</p>
-<h3><a class="anchor" id="autotoc_md33"></a>
+<h3><a class="anchor" id="autotoc_md34"></a>
 Creating Variables</h3>
 <p>At the top of <a class="el" href="ObjDict_8c.html">ObjDict.c</a> (located in Core/App/), there is a list of mapped variables. To ensure compatibility with the network, mapped entries should use the built in variable types (<a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>, <a class="el" href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a>, <a class="el" href="applicfg_8h.html#a889a782714194ae2f780002d25d6e0be">UNS32</a>, <a class="el" href="applicfg_8h.html#a662ebb8e51dc6acbd8850e22f172c5bf">INTEGER8</a>, <a class="el" href="applicfg_8h.html#aef74ac6cf2d7e6e7ceb25199c0a4e8d9">INTEGER16</a>, etc...).</p>
 <p>To begin, we will add SimpleVariable (a <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>) and SimpleArray (a <a class="el" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a>[16]) to the list. Variables that are included in the Object Dictionary must have a default value assigned to them. This value can be updated within the application at any point.</p>
@@ -334,7 +359,7 @@ Creating Variables</h3>
 <div class="line"> </div>
 <div class="line"><span class="keyword">extern</span> <a class="code hl_define" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> SimpleVariable;</div>
 <div class="line"><span class="keyword">extern</span> <a class="code hl_define" href="applicfg_8h.html#a539234687760592d01a8b0d3357bc00e">UNS8</a> SimpleArray[16];</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md34"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md35"></a>
 Defining Object Dictionary Structures</h3>
 <p>With the new entries in the Object Dictionary created, we can now add them into the Object Dictionary itself. Scrolling through the Object Dictionary, you will see the repetition of a specific structure. The one for Accelerometer data is included below:</p>
 <div class="fragment"><div class="line"><span class="comment">/* ObjDict.c */</span></div>
@@ -380,7 +405,7 @@ Defining Object Dictionary Structures</h3>
 <li>The last part describes the object itself. Objects in the Object Dictionary are referenced to by their address. In our case, these are pointers to the SimpleVariable and SimpleArray variables.</li>
 </ul>
 <dl class="section note"><dt>Note</dt><dd>To add an array to the Object Dictionary, the size of the object will be <code>sizeof(array)</code>, but the pointer to the object will be a reference to the 0th index of the array.</dd></dl>
-<h3><a class="anchor" id="autotoc_md35"></a>
+<h3><a class="anchor" id="autotoc_md36"></a>
 Registering Object Dictionary Entries</h3>
 <p>Now that the Object Dictionary structure is defined, we can register the Object Dictionary entry in the <a class="el" href="objdictdef_8h.html#acd05cef26afde599867f00ba1d48dc45">indextable</a>.</p>
 <p>Near the end of <a class="el" href="ObjDict_8c.html">ObjDict.c</a>, there will be a large array named ObjDict_objdict, this is the <a class="el" href="objdictdef_8h.html#acd05cef26afde599867f00ba1d48dc45">indextable</a> of our Object Dictionary.</p>
@@ -414,7 +439,7 @@ Registering Object Dictionary Entries</h3>
 </div><!-- fragment --> <div class="fragment"><div class="line">nnp.read(node, &#39;BEEF&#39;, 1);</div>
 </div><!-- fragment --> <div class="fragment"><div class="line">nnp.read(node, &#39;BEEF&#39;, 2);</div>
 </div><!-- fragment --></dd></dl>
-<h2><a class="anchor" id="autotoc_md36"></a>
+<h2><a class="anchor" id="autotoc_md37"></a>
 Adding Callbacks</h2>
 <p>Callbacks can be added to specific subindices to call a function when modified in the Object Dictionary via FESCAN. This is useful if a specific variable is used for asynchronous code execution, or as an initialization parameter.</p>
 <p>Adding a callback is fairly straightforward, and only requires slight modifications to our existing structures. We will continue from our SimpleVariable example above.</p>
@@ -462,7 +487,7 @@ Adding Callbacks</h2>
 <div class="line">    *errorCode = <a class="code hl_define" href="def_8h.html#acb82b94eb8e368e8c347b2273b6e514e">OD_SUCCESSFUL</a>;</div>
 <div class="line">    <span class="keywordflow">return</span> &amp;ObjDict_objdict[i];</div>
 <div class="line">}</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md37"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md38"></a>
 Registering an Object Dictionary Callback to a Function</h3>
 <p>Now that our index in the Object Dictionary has slots for callback functions assigned, we can assign a callback function to it.</p>
 <p>All callback functions for the object dictionary must have the following structure:</p>
@@ -489,7 +514,7 @@ Registering an Object Dictionary Callback to a Function</h3>
 <div class="fragment"><div class="line"><a class="code hl_function" href="group__od.html#ga514e7b9c13835a86446b1cd38fa34049">RegisterSetODentryCallBack</a>(&amp;ObjDict_Data, 0xBEEF, 0x01, &amp;SimpleCallback);</div>
 <div class="ttc" id="agroup__od_html_ga514e7b9c13835a86446b1cd38fa34049"><div class="ttname"><a href="group__od.html#ga514e7b9c13835a86446b1cd38fa34049">RegisterSetODentryCallBack</a></div><div class="ttdeci">UNS32 RegisterSetODentryCallBack(CO_Data *d, UNS16 wIndex, UNS8 bSubindex, ODCallback_t Callback)</div><div class="ttdoc">&lt;BRIEF&gt;</div><div class="ttdef"><b>Definition</b> <a href="objacces_8c_source.html#l00357">objacces.c:357</a></div></div>
 </div><!-- fragment --><h2>Congratulations! You have added a callback that runs when a variable in the Object Dictionary is updated! </h2>
-<h2><a class="anchor" id="autotoc_md38"></a>
+<h2><a class="anchor" id="autotoc_md39"></a>
 Add to Restore List</h2>
 <p>Indices in the Object Dictionary can be restored if they are included in the RestoreList entry in the ObjectDictionary (0x2900). A given state of the Object Dictionary can be saved via the <a class="el" href="group__EEPROM.html#gabdbcc16ecac7cbd0adad6cfc5805ae54">SaveValues()</a> function, or over the CAN network via the NMT_Do_Save_Cmd NMT command.</p>
 <p>We will add our example index <code>0xBEEF</code> to the restore list.</p>
@@ -503,7 +528,7 @@ Add to Restore List</h2>
 <div class="line">                                      0xBEEF  <span class="comment">/*SimpleVariable/Array*/</span>};</div>
 <div class="ttc" id="aapplicfg_8h_html_a5528eeccf214bfe021532622d78c6a96"><div class="ttname"><a href="applicfg_8h.html#a5528eeccf214bfe021532622d78c6a96">UNS16</a></div><div class="ttdeci">#define UNS16</div><div class="ttdoc">Unsigned int16 representation in CANFest.</div><div class="ttdef"><b>Definition</b> <a href="applicfg_8h_source.html#l00026">applicfg.h:26</a></div></div>
 </div><!-- fragment --><dl class="section warning"><dt>Warning</dt><dd>Ensure that the RESTORE_COUNT in <code><a class="el" href="ObjDict_8h.html" title="This file is generated by the NNP Tool – Object Dictionary Editor, as originally developed by CAN Fes...">ObjDict.h</a></code> lines up with the number of indices in <code>RestoreList</code>, otherwise, you will get a compilation error</dd></dl>
-<h1><a class="anchor" id="autotoc_md39"></a>
+<h1><a class="anchor" id="autotoc_md40"></a>
 Adding Functionality</h1>
 <p>Application functionality is added via source/header files within the Core/app directory. Instead of a <a class="el" href="main_8c.html" title=": Main program body">main.c</a>, the module application code should live in <a class="el" href="app_8c.html">app.c</a>.</p>
 <p>Initialization code takes place in <a class="el" href="group__application.html#ga42c42e16b97b7f73d30718595c902889">initAppTask()</a>, and the continuously running loop takes place in <a class="el" href="group__application.html#gafdedae5c2185b828122616a752251cd1">updateAppTask()</a>.</p>
@@ -514,14 +539,14 @@ Adding Functionality</h1>
 <li><a class="el" href="group__application.html#gaca63e0eddadac7318018fb262a07c249">InitAppTaskValues()</a> - Reinitializes user application values, check documentation for details.</li>
 </ul>
 <p>State management callbacks are also available for user application modification.</p>
-<dl class="section important"><dt>Important</dt><dd>Do not modify <a class="el" href="main_8c.html" title=": Main program body">main.c</a>, outside of changes from modifying STM_RM.ioc. Application code should live in Core/app</dd></dl>
+<dl class="section important"><dt>Important</dt><dd>Do not modify <a class="el" href="main_8c.html" title=": Main program body">main.c</a>, outside of changes from modifying Implantables-GenericModule-Application.ioc. Application code should live in Core/App</dd></dl>
 <p>An example of implemented application code is locally present in <a class="el" href="acceltemp_8c.html">acceltemp.c</a>, with a full application example in SWARM.</p>
-<h2><a class="anchor" id="autotoc_md40"></a>
+<h2><a class="anchor" id="autotoc_md41"></a>
 Implantables-GenericModule-Application.ioc</h2>
 <p>‎<code>Implantables-GenericModule-Application.ioc</code> is the STM32CubeMX configuration file that enables creation of initialization code for pin function and system clocks through a GUI.</p>
 <p>As long as the existing set up peripherals and pin assignments are not modified, the ioc file can be used to add additional peripherals and GPIO to the project.</p>
 <dl class="section note"><dt>Note</dt><dd>Implantables-GenericModule-Application.ioc must be renamed to match the name of the folder that contains it.</dd></dl>
-<h1><a class="anchor" id="autotoc_md41"></a>
+<h1><a class="anchor" id="autotoc_md42"></a>
 Adding Documentation</h1>
 <p>The repository is set up with the Doxygen toolchain in mind. The repository also contains custom GitHub Actions and Workflows that will automatically publish Doxygen documentation to GitHub Pages on each commit to the main branch. The Doxygen configuration also adds a revision history feature, which allows users to view a snapshot of the documentation as it was when a release was published on GitHub.</p><ul>
 <li>The website will pull the tag name as the identifier for the release.</li>
