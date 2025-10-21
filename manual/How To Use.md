@@ -70,14 +70,30 @@ MEMORY
 {
   RAM    (xrw)    : ORIGIN = 0x20000000,   LENGTH = 48K
   RAM2    (xrw)    : ORIGIN = 0x10000000,   LENGTH = 16K
-  FLASH    (rx)    : ORIGIN = 0x08005000,   LENGTH = 232K
+  FLASH    (rx)    : ORIGIN = 0x08005000,   LENGTH = 228K
 }
 ```
 
 The flash origin has a 0x5000 offset due to the bootloader, and the length is shortened, due to the bootloader, module parameter storage, and reserved EEPROM space.
 
 For a 256K module:
-- 256K - 20K (bootloader) - 2K (parameter space) - 2K (EEPROM) = 232K
+- 256K - 20K (bootloader) - 2K (parameter space) - 6K (EEPROM) = 228K
+
+### Full Memory Layout
+The different sections of flash are shown below
+
+|               | Bootloader | App Space | EEPROM  | Parameter Space |
+| :-----------: | :--------: | :-------: | :-----: | :-------------: |
+| Start Address | 0x0000     | 0x5000    | 0x3E000 | 0x3F800         |
+| End Address   | 0x4FFF     | 0x3DFFF   | 0x3F7FF | 0x3FFFF         |
+| Size          | 0x5000     | 0x39000   | 0x1800  | 0x800           |
+| # of flash pages    | 10         | 114       | 3       | 1               |
+| Purpose       | Module bootloader (first entry point) | Application space (leftover space from allocation of other sections) | Space for emulated EEPROM | Parameter space (Node number, app checksum, stim limits, etc.) |  
+
+> [!NOTE]
+> The STM32L4xx series aliases ```0x08000000``` to ```0x00000000``` by default, each of the addresses should add ```0x08000000``` to write to the absolute flash address
+>
+> e.g, ```0x00004FFF``` becomes ```0x08004FFF```
 
 # Object Dictionary
 The Object Dictionary is the primary index for reading and writing data via FESCAN/CanFest. The @ref ObjDict.c "Object Dictionary" conatins module configuration data, state information, sensor information, etc; and is where any data you would like to retrieve over FESCAN will live. 
@@ -368,7 +384,7 @@ There are also several useful callbacks present in @ref app.c that are linked to
 State management callbacks are also available for user application modification.
 
 > [!IMPORTANT]
-> Do not modify main.c, outside of changes from modifying STM_RM.ioc. Application code should live in Core/app
+> Do not modify main.c, outside of changes from modifying Implantables-GenericModule-Application.ioc. Application code should live in Core/App
 
 An example of implemented application code is locally present in @ref acceltemp.c, with a full application example in SWARM.
 
