@@ -307,9 +307,19 @@ Full Memory Layout</h3>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyCenter">Purpose   </td><td class="markdownTableBodyCenter">Module bootloader (first entry point)   </td><td class="markdownTableBodyCenter">Application space (leftover space from allocation of other sections)   </td><td class="markdownTableBodyCenter">Space for emulated EEPROM   </td><td class="markdownTableBodyCenter">Parameter space (Node number, app checksum, stim limits, etc.)   </td></tr>
 </table>
-<dl class="section note"><dt>Note</dt><dd>The STM32L4xx series aliases <code>0x08000000</code> to <code>0x00000000</code> by default, each of the addresses should add <code>0x08000000</code> to write to the absolute flash address <br  />
+<dl class="section note"><dt>Note</dt><dd>The (two byte) serial numnber, and module type identifier are located in the last three bytes of the bootloader space. e.g, S/N 1234 with module type 3 would be <code>[0x04, 0xD2, 0x03]</code> at addresses <code>0x4FFD</code> <code>0x4FFE</code> and <code>0x4FFF</code> respectively. <br  />
 <br  />
- e.g, <code>0x00004FFF</code> becomes <code>0x08004FFF</code></dd></dl>
+ The first 6 bytes of the parameter space <code>[0x3F800 - 0x3F805]</code>are used for the:<ul>
+<li>Node Number - 1 byte</li>
+<li>App Checksum - 1 byte</li>
+<li>App Size - 3 bytes</li>
+<li>Checksum Clock - 1 byte (unused) <br  />
+<br  />
+ The STM32L4xx series aliases <code>0x08000000</code> to <code>0x00000000</code> by default, each of the addresses should add <code>0x08000000</code> to write to the absolute flash address <br  />
+<br  />
+ e.g, <code>0x00004FFF</code> becomes <code>0x08004FFF</code></li>
+</ul>
+</dd></dl>
 <h1><a class="anchor" id="autotoc_md31"></a>
 Object Dictionary</h1>
 <p>The Object Dictionary is the primary index for reading and writing data via FESCAN/CanFest. The <a class="el" href="ObjDict_8c.html">Object Dictionary</a> conatins module configuration data, state information, sensor information, etc; and is where any data you would like to retrieve over FESCAN will live.</p>
